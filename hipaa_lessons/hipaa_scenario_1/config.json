@@ -1,0 +1,865 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "02e7900e-b152-4f3b-af12-a465e0316782",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "02e7900e-b152-4f3b-af12-a465e0316782"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": false,
+				"title": "**Scenario #1**",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "4c071625-09d4-43a3-b8ae-8309dd6ba73d",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "4c071625-09d4-43a3-b8ae-8309dd6ba73d"
+			},
+			"data": {
+				"content": "# <center> Everybody loves a good story, let's take a look at how Dakota caught a phish.",
+				"prompt": "Scroll to see more",
+				"doneText": "Continue",
+				"title": "",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "6253076d-0542-4034-b9d1-380c9c20cdf1",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "6253076d-0542-4034-b9d1-380c9c20cdf1"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "fit_content_assets/fva5b2gfisagthunpnt1.png",
+						"caption": "Dakota, a practice administrator, receives an email, _Subject: Urgent: Payment Delayed_ from a consultant the practice uses."
+					},
+					{
+						"image": "fit_content_assets/azmx2ubssxkg0npiuuge.png",
+						"caption": "The email states that \"to receive your payment, the practice needs to immediately update its profile\" and gives a link named \"Business Associate Profile.\" It's signed with \"Madison Sotillle,\" Accounts Payable Manager."
+					},
+					{
+						"image": "fit_content_assets/qqbes2rquoedffqb8lym.png",
+						"caption": "After clicking the link, a form appears, requesting standard BA information, like name, address, phone number, tax identifier, bank electronic transfer information, adherence to HIPAA standards.  Dakota completes the form, clicks submit."
+					},
+					{
+						"image": "fit_content_assets/nsswtdrrgeoymzhmw8ix.png",
+						"caption": "Three days later, the practice is notified by the bank that money had been withdrawn from their account and a line of credit has been requested.  "
+					},
+					{
+						"image": "fit_content_assets/cra5v3drwoqwlhnnjimn.png",
+						"caption": "A few days after that, a patient reported that their credit monitoring service reported a new mortgage application - that they did not make."
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "5754c530-1668-4671-99a7-d6b75b8a70ca",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select the correct answer",
+							"content": "What happened?",
+							"questionId": "7d0b79d7-f6ce-4316-9695-19ae07e75ee9",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Dakota was the victim of a phishing attack.",
+								"correct": true,
+								"answerId": "0160734f-15b6-49bc-9bc2-23a946f0d05b",
+								"type": "text"
+							},
+							{
+								"content": "Dakota acted appropriately to stop the practice from losing money.",
+								"correct": false,
+								"answerId": "cc8a46cc-7956-44b8-9a5f-02c49aa95379",
+								"type": "text"
+							},
+							{
+								"content": "The practice needed to review its contract with the consultant.",
+								"correct": false,
+								"answerId": "8b1537e1-04d6-4cd1-b4c0-425cbabe6252",
+								"type": "text"
+							},
+							{
+								"content": "The consultant should not have requested the information by email.",
+								"correct": false,
+								"answerId": "9575cedc-bf04-45ff-9120-ce4b435dc828",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "5754c530-1668-4671-99a7-d6b75b8a70ca"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 3,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "a52e0198-9e23-433b-bf35-80fd99b057d8",
+						"content": "Dakota was the victim of a phishing attack.",
+						"correct": true
+					},
+					{
+						"id": "57e30d33-a92c-4e62-b186-ce0269e8b126",
+						"content": "Dakota acted appropriately to stop the practice from losing money.",
+						"correct": false
+					},
+					{
+						"id": "a1473770-1992-4401-9330-b472a454d247",
+						"content": "The practice needed to review its contract with the consultant.",
+						"correct": false
+					},
+					{
+						"id": "80dea676-2a95-457b-89f4-80f3c4c1db65",
+						"content": "The consultant should not have requested the information by email.",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "Phishing is a common, subtle and effective threat.  Read about it more after the next question.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "What happened?",
+				"titleType": "text",
+				"subtitle": "Select the correct answer",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "a1944c73-24d8-4b93-821e-0baeb2475f35",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select 4 correct answers",
+							"content": "What should Dakota have done? ",
+							"questionId": "099766df-be6d-4cfa-9bf0-c653c22d7c69",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Not clicked on the link.",
+								"correct": true,
+								"answerId": "c858e6c2-c4ba-4149-a127-40242e2fbd80",
+								"type": "text"
+							},
+							{
+								"content": "Contacted the practice Security Officer.",
+								"correct": true,
+								"answerId": "313a994f-d555-41ff-a407-dbb842e23445",
+								"type": "text"
+							},
+							{
+								"content": "Warned the office staff about the email.",
+								"correct": true,
+								"answerId": "49e73c46-f2f9-4bef-b867-7513b27a344c",
+								"type": "text"
+							},
+							{
+								"content": "Contacted the Business Associate to confirm the email.",
+								"correct": true,
+								"answerId": "f20c9c43-aad7-43cd-92c9-81c94c1cd3e5",
+								"type": "text"
+							},
+							{
+								"content": "Clicked on the link",
+								"correct": false,
+								"answerId": "83bddaab-841d-47a3-8c9b-75aefdeccfff",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "a1944c73-24d8-4b93-821e-0baeb2475f35"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 4,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "099a539b-ede9-466c-abce-aa5c29257f3b",
+						"content": "Not clicked on the link.",
+						"correct": true
+					},
+					{
+						"id": "bdfe3dba-8708-4dcf-a715-07ffec310e00",
+						"content": "Contacted the practice Security Officer.",
+						"correct": true
+					},
+					{
+						"id": "81d8face-7411-4f08-8edc-e70ee4724b9b",
+						"content": "Warned the office staff about the email.",
+						"correct": true
+					},
+					{
+						"id": "af06188f-fdbf-4b5f-bb40-6cd8f409be0b",
+						"content": "Contacted the Business Associate to confirm the email.",
+						"correct": true
+					},
+					{
+						"id": "72a05482-57c8-4eee-90cd-6e0d2723da22",
+						"content": "Clicked on the link",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "Phishing is a common, subtle and effective threat. Read about it more on the next screen.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select 4 correct answers",
+				"title": "What should Dakota have done? ",
+				"titleType": "text",
+				"subtitle": "Select 4 correct answers",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "37fd07fb-0bc1-4aef-8286-4b42c95f0e4a",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "What do you do?",
+							"content": "Your office receives an unexpected email from a known consultant with a link to provide practice information, bank account information, and access credentials for the practice management system.",
+							"questionId": "ac92b076-7ad6-40b6-a627-fc9e7241bc86",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Click on the link and provide the information",
+								"correct": false,
+								"answerId": "d31cae15-8905-47cc-91cb-dc2224b98393",
+								"type": "text"
+							},
+							{
+								"content": "Confirm the request with the consultant by phone",
+								"correct": true,
+								"answerId": "6c9a77fc-f172-4cc5-8b5f-2d5f61793374",
+								"type": "text"
+							},
+							{
+								"content": "Caution your fellow employees",
+								"correct": true,
+								"answerId": "fb827421-1e71-4be5-be26-13a7272470f9",
+								"type": "text"
+							},
+							{
+								"content": "Notify your Security Officer",
+								"correct": true,
+								"answerId": "f5413159-fb88-4475-9d27-caf043af0ba4",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "37fd07fb-0bc1-4aef-8286-4b42c95f0e4a"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 3,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "72b55676-e46f-4d8a-910f-81747c22474f",
+						"content": "Click on the link and provide the information",
+						"correct": false
+					},
+					{
+						"id": "b1f8a3dc-da21-4617-91ee-15c0751ca7ab",
+						"content": "Confirm the request with the consultant by phone",
+						"correct": true
+					},
+					{
+						"id": "d7085541-67b6-413b-aa4b-151e739a429b",
+						"content": "Caution your fellow employees",
+						"correct": true
+					},
+					{
+						"id": "c625ac07-9901-4986-8e0f-0b5af6a9987a",
+						"content": "Notify your Security Officer",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select all correct answers",
+				"title": "Your office receives an unexpected email from a known consultant with a link to provide practice information, bank account information, and access credentials for the practice management system.",
+				"titleType": "text",
+				"subtitle": "What do you do?",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "9106408f-5ffc-435d-adcc-a61716a3aa71",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "9106408f-5ffc-435d-adcc-a61716a3aa71"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Let's look at an actual case",
+				"list": [
+					{
+						"content": "A malevolent actor seeks to penetrate an information system.",
+						"title": "Hacking"
+					},
+					{
+						"content": "The hacker frequently includes a link to an external site in the email in an attempt to install malware - viruses, ransomware, surveillance programs.",
+						"title": "Malware"
+					},
+					{
+						"content": "The hacker crafts the language of the email to manipulate the user into thinking it's authentic and therefore safe.",
+						"title": "Social Engineering"
+					}
+				],
+				"title": "Phishing is subtle - it combines multiple threats into an effective package by using...",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "10e9488e-4e85-4741-be2c-fd1b88679ba8",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select 2 correct answers",
+							"content": "Why do phishing attempts frequently include a link to an external site?",
+							"questionId": "51f801a1-f623-4ad6-8f05-d93922d5c058",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "The message is too large to fit in a single email",
+								"correct": false,
+								"answerId": "8a4d8c10-3b89-46d7-aa39-0854a8f69f70",
+								"type": "text"
+							},
+							{
+								"content": "A link with a known name makes the email more believable",
+								"correct": true,
+								"answerId": "ef9a8359-a7f4-4f57-a303-c7053f190abf",
+								"type": "text"
+							},
+							{
+								"content": "The external site contains malware the phisher wants you to install",
+								"correct": true,
+								"answerId": "ff94e1bc-b1c1-44d9-a536-67f48d32e544",
+								"type": "text"
+							},
+							{
+								"content": "Emails must contain a link to be a phishing attempt",
+								"correct": false,
+								"answerId": "5d124dea-c743-4430-91c2-8d6dcae50a54",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "10e9488e-4e85-4741-be2c-fd1b88679ba8"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 3,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "65384f15-3cd5-4558-813e-41ace2fa2911",
+						"content": "The message is too large to fit in a single email",
+						"correct": false
+					},
+					{
+						"id": "ee23c7ef-853d-470b-b781-8b9b13be0957",
+						"content": "A link with a known name makes the email more believable",
+						"correct": true
+					},
+					{
+						"id": "defb7b4a-dd3e-4e8b-a2ed-d335f6503cd9",
+						"content": "The external site contains malware the phisher wants you to install",
+						"correct": true
+					},
+					{
+						"id": "c8f60aaa-2f03-4524-9046-3f0d889ee6eb",
+						"content": "Emails must contain a link to be a phishing attempt",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select 2 correct answers",
+				"title": "Why do phishing attempts frequently include a link to an external site?",
+				"titleType": "text",
+				"subtitle": "Select 2 correct answers",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "653ca33c-3bdf-4146-bc46-1a345ab6b66d",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "653ca33c-3bdf-4146-bc46-1a345ab6b66d"
+			},
+			"data": {
+				"content": "Premera Blue Cross is one of the largest healthcare insurers in the Pacific Northwest.  Thirty states brought action against the insurer for a HIPAA violation, that the  <a   href=\"https://oag.ca.gov/system/files/attachments/press-docs/Premera%20-%20final%20complaint.pdf\" style=\"color:#dbff33;\">California complaint</a> described as:\n> [_A hacker_] gained unauthorized access to Sensitive Data stored on Premera’s computer network for ten months, beginning on or about May 5, 2014 and continuing through March 6, 2015.\n\nThe hacker:<br><br>\n_exploited multiple weaknesses in Premera’s data security, including known cybersecurity risks that Premera failed to appropriately and adequately address. Many of these weaknesses—inadequate safeguards against phishing attempts, inadequate network segmentation, ineffective password management policies, ineffectively configured security tools, and inadequate patch management—had been identified as vulnerabilities in Premera’s network in the years leading up to the breach_",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "Premera Blue Cross Gets Phished",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "6f2647ce-c6ea-4cc3-a781-f85c48b461af",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "The Dakota and Premera Blue Cross cases were both adversely affected by phishing attacks.",
+							"questionId": "cbc34754-7295-4672-bac9-c84518ff96d9",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": true,
+								"answerId": "d8601b3c-3c1c-42e2-ba0e-68e38e5d6a63",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": false,
+								"answerId": "3449f0f3-9969-45ab-9689-9e364145671f",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "6f2647ce-c6ea-4cc3-a781-f85c48b461af"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "2207811e-d954-4336-bf73-13da2bf87c62",
+						"content": "True",
+						"correct": true
+					},
+					{
+						"id": "03fd7451-3a27-48e8-8350-7f2397fc5e54",
+						"content": "False",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "The Dakota and Premera Blue Cross cases were both adversely affected by phishing attacks.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "9077023c-4878-43b9-8be6-ad7554bab1ac",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Phishing attempts frequently appear as legitimate emails from known sources.",
+							"questionId": "5e95d5de-a747-4254-ad0a-bf152b8619c1",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": true,
+								"answerId": "8cd3ced8-bfb2-4035-8447-ce667d97a47e",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": false,
+								"answerId": "bed9e594-23c6-4f04-b843-ddd8475996d3",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "9077023c-4878-43b9-8be6-ad7554bab1ac"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "0d56272d-22df-417d-9f94-d2a11d423dd4",
+						"content": "True",
+						"correct": true
+					},
+					{
+						"id": "b637a574-37f4-4188-b468-9c80e7e34031",
+						"content": "False",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Phishing attempts frequently appear as legitimate emails from known sources.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "cfe6fca3-5b17-4847-b064-c99bc44f7573",
+			"type": "exit",
+			"subtype": "default",
+			"name": 12,
+			"displayIndex": 12,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "cfe6fca3-5b17-4847-b064-c99bc44f7573"
+			},
+			"data": {
+				"content": "<p>Nice work. You've completed this lesson.</p><p></p><p>Please close this tab and return to the Content tab to complete the course</p>",
+				"buttonText": "Exit Lesson",
+				"title": "That's it!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "Scenario #1",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090b5"
+}
