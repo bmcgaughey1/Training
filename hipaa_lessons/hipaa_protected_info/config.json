@@ -1,0 +1,840 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "ad36e4a0-1d5c-4438-95db-cd5219fee6f3",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "ad36e4a0-1d5c-4438-95db-cd5219fee6f3"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": true,
+				"title": "**What Information is Protected?**",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "943210bb-1def-4650-a054-054564102d37",
+			"type": "comparison",
+			"subtype": "reveal-further-information",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Comparison",
+			"templateDescription": "Juxtapose two items in a slider",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "943210bb-1def-4650-a054-054564102d37"
+			},
+			"data": {
+				"before": {
+					"contentType": "text",
+					"content": "# **What information does HIPAA Protect?**",
+					"label": null
+				},
+				"after": {
+					"contentType": "text",
+					"content": "# <center>Any information or combination of information stored in electronic or print form that can be used to identify an individual.",
+					"label": null
+				},
+				"startPosition": "Before - Start with the first section visible",
+				"prompt": "Drag bar R to L reveal the content",
+				"doneText": "Next",
+				"title": "",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "ce337a48-b65e-4e21-a650-4d62c77d923c",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "HIPAA protects any information or combination of information stored in electronic or print form that can be used to identify an individual .",
+							"content": "electronic",
+							"questionId": "63397605-b587-4899-85ec-2e6b7e07168d",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "combination",
+								"correct": false,
+								"answerId": "44165be9-74c7-47af-bde1-b175faee692f",
+								"type": "text"
+							},
+							{
+								"content": "organization",
+								"correct": false,
+								"answerId": "86159659-a3da-4a0f-ade3-c16993e201c7",
+								"type": "text"
+							},
+							{
+								"content": "individual",
+								"correct": false,
+								"answerId": "63c3ae07-4094-474a-b288-5884eddb7cd4",
+								"type": "text"
+							},
+							{
+								"content": "ultrasonic",
+								"correct": false,
+								"answerId": "2ba12121-e406-4bcc-8ecf-9633121a5328",
+								"type": "text"
+							},
+							{
+								"content": "electronic",
+								"correct": true,
+								"answerId": "c2f9f0f6-70fd-4cb5-bae3-e9a7be6f7609",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "HIPAA protects any information or combination of information stored in electronic or print form that can be used to identify an individual .",
+							"content": "combination",
+							"questionId": "722c8eca-17d9-4ae6-8f15-a5aa4d5b7687",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "electronic",
+								"correct": false,
+								"answerId": "dbb325fb-8e9d-4ce3-9121-0d3b982c7ceb",
+								"type": "text"
+							},
+							{
+								"content": "organization",
+								"correct": false,
+								"answerId": "ea18c95d-d912-498b-aea4-b5cf5ce0ec72",
+								"type": "text"
+							},
+							{
+								"content": "individual",
+								"correct": false,
+								"answerId": "1ff3b445-dda9-4158-8429-3f803c42425f",
+								"type": "text"
+							},
+							{
+								"content": "ultrasonic",
+								"correct": false,
+								"answerId": "25154b2b-f0b5-48d6-afb7-e89ba213700e",
+								"type": "text"
+							},
+							{
+								"content": "combination",
+								"correct": true,
+								"answerId": "51914951-8c55-4490-b489-f99bce500b7b",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "HIPAA protects any information or combination of information stored in electronic or print form that can be used to identify an individual .",
+							"content": "individual",
+							"questionId": "8bb846c9-ed3d-4835-99ff-e29ae6afbf34",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "electronic",
+								"correct": false,
+								"answerId": "7f2641d0-a4fe-4e46-a573-883fa0dae724",
+								"type": "text"
+							},
+							{
+								"content": "combination",
+								"correct": false,
+								"answerId": "c0c3d9fb-64b5-4e71-b6a9-1a178f878f56",
+								"type": "text"
+							},
+							{
+								"content": "organization",
+								"correct": false,
+								"answerId": "07736dd9-d9f1-46fd-b170-7a6939151e75",
+								"type": "text"
+							},
+							{
+								"content": "ultrasonic",
+								"correct": false,
+								"answerId": "f0ad0435-f48f-4d1d-b029-4a8fa9467f7b",
+								"type": "text"
+							},
+							{
+								"content": "individual",
+								"correct": true,
+								"answerId": "acb02b84-4218-4d0a-bee1-aa8b11da333a",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "ce337a48-b65e-4e21-a650-4d62c77d923c"
+			},
+			"data": {
+				"words": [
+					"electronic",
+					"combination",
+					"organization",
+					"individual",
+					"ultrasonic"
+				],
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "HIPAA defined standards for electronic information, but print copies should be treated similarly, since personal health information, if disclosed inappropriately, violates the privacy of an individual.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "HIPAA protects any information or combination of information stored in electronic or print form that can be used to identify an individual .",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "514e1443-f097-43a1-8047-627538c11084",
+			"type": "image-collection",
+			"subtype": "image-collection",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Image collection",
+			"templateDescription": "Select an image to see more detail",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "514e1443-f097-43a1-8047-627538c11084"
+			},
+			"data": {
+				"prompt": "Select each image for more details",
+				"background": "",
+				"lightbox": true,
+				"images": [
+					{
+						"content": "* Names\n* Addresses (physical - smaller than a state; email address; zip code)\n* Dates (e.g., birth date, admission date, date of death)\n* Telephone (and fax) numbers\n* Social security numbers\n* Medical record numbers, account numbers, health plan beneficiary number\n* Images that can identify person (e.g., face, tattoo)\n* Name of relative",
+						"image": "fit_content_assets/rzhdr56ltxxouebprqfs.png",
+						"narration": null
+					},
+					{
+						"content": "<ol>\n<li>Other identifying numbers (Certification/license, Vehicle identifiers, including license plate numbers, Device identifiers and serial numbers\n<li>Web Universal Resource Locator (URL)\n<li>Internet Protocol (IP) address number\n<li>Biometric identifiers, including finger and voice prints",
+						"image": "fit_content_assets/knycxvrotdip4miy0fcv.png",
+						"narration": null
+					}
+				],
+				"doneText": "Next",
+				"title": "Types of  PHI",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "3ce5e757-a0cb-490b-a889-d6d5edbb540b",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select one",
+							"content": "Which one of the following is not a personal health identifier?",
+							"questionId": "52ffdcc2-3a1e-43a3-a536-b0209f85784f",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Social Security Number",
+								"correct": false,
+								"answerId": "03348bb1-f89d-417b-8d37-cca07584502b",
+								"type": "text"
+							},
+							{
+								"content": "Telephone Number",
+								"correct": false,
+								"answerId": "b24e47b8-ff83-4993-b79c-46c287eb4e9d",
+								"type": "text"
+							},
+							{
+								"content": "Tattoo",
+								"correct": false,
+								"answerId": "c1a52874-3002-4df7-8dc3-a94a9d2bc840",
+								"type": "text"
+							},
+							{
+								"content": "State",
+								"correct": true,
+								"answerId": "bde60209-142a-42b3-870a-dc5cdc32ddd3",
+								"type": "text"
+							},
+							{
+								"content": "Disease",
+								"correct": false,
+								"answerId": "f8f8567c-7636-4bfb-b182-8e825b3788fa",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "3ce5e757-a0cb-490b-a889-d6d5edbb540b"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 5,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "7bd8a5d4-810c-4fa3-839c-7fb3b794cd01",
+						"content": "Social Security Number",
+						"correct": false
+					},
+					{
+						"id": "ea372061-87cf-482e-98fc-f34efca1f29a",
+						"content": "Telephone Number",
+						"correct": false
+					},
+					{
+						"id": "cc5a44a4-4811-4015-83de-fe859bf62a0b",
+						"content": "Tattoo",
+						"correct": false
+					},
+					{
+						"id": "91e13e2d-9f95-49cc-8691-b20b1c7e7ec1",
+						"content": "State",
+						"correct": true
+					},
+					{
+						"id": "4228a71e-ac47-4e5e-b1f6-dd1b35d4524e",
+						"content": "Disease",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "It's best to consider any information that alone, or in combination, can uniquely **identify an individual**, is a **personal identifier** and should be **protected.**  For example, even if only a diagnosis and zip code are reported to the press, **if the disease is rare**, those two pieces of information may be sufficient to uniquely **identify a person.**",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Which one of the following is not a personal health identifier?",
+				"titleType": "text",
+				"subtitle": "Select one",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "c51fcd32-0e43-45d3-8dc1-2036dd21cc1e",
+			"type": "comparison",
+			"subtype": "reveal-further-information",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Comparison",
+			"templateDescription": "Juxtapose two items in a slider",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "c51fcd32-0e43-45d3-8dc1-2036dd21cc1e"
+			},
+			"data": {
+				"before": {
+					"contentType": "text",
+					"content": "# <br><br> **Why?**<br><br>",
+					"label": null
+				},
+				"after": {
+					"contentType": "text",
+					"content": "## Because every single HIPAA violation can have massive consequences to your organization. <br><br>Continue to learn more about the penalty tiers.\n",
+					"label": null
+				},
+				"startPosition": "Before - Start with the first section visible",
+				"prompt": "Drag bar R to L reveal the answer",
+				"doneText": "Continue",
+				"title": "When in doubt, treat every piece of patient data as if it is protected information.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "b0480da0-c37c-4962-bf21-43141fde0807",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "When in doubt, treat every piece of patient data as if it is protected information.",
+							"questionId": "f71f42c7-2abe-4cab-9d4f-512fd6e76cb3",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": true,
+								"answerId": "6ab0f993-3c7a-4a9f-8e54-8bbe9fa4a45c",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": false,
+								"answerId": "8b92bcbd-3d43-47a4-be8c-8ef18b135f1b",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "b0480da0-c37c-4962-bf21-43141fde0807"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "7ec6134c-3ceb-4e08-bccb-aefb69b23e35",
+						"content": "True",
+						"correct": true
+					},
+					{
+						"id": "156307d2-f650-47da-b01a-d95d8a7dfaf8",
+						"content": "False",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "It's good to be **skeptical and cautious**, not only because it's the law, but because it's respectful of each person's **privacy**.  Best to confirm before a disclosure than having to report a breach.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "When in doubt, treat every piece of patient data as if it is protected information.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "fe427799-0d0e-4ffe-892d-305323196b84",
+			"type": "image-map",
+			"subtype": "multiple-regions",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Image map",
+			"templateDescription": "Map out details through a series of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "fe427799-0d0e-4ffe-892d-305323196b84"
+			},
+			"data": {
+				"doneText": "Next",
+				"zoom": true,
+				"stickyCaptions": true,
+				"url": "fit_content_assets/trjimcyzbhurpdi2cdjy.png",
+				"prompt": "<span style=\"color:#fff\"> Explore each region of the image </span>",
+				"appearance": {
+					"waypointColor": "None"
+				},
+				"lightbox": {
+					"background": "white",
+					"textColor": "Black"
+				},
+				"waypoints": [
+					{
+						"image": "fit_content_assets/sbwbegv0ew9vbeflqljs.png",
+						"caption": "# Tier 1\n## Unaware of the HIPAA violation and by exercising reasonable due diligence would not have known HIPAA Rules had been violated<br><br>**$100 - $50,000 per violation**\n\n<span style=\"color:#000\"> Click anywhere to return to the main screen </span>",
+						"narration": null,
+						"region": {
+							"yMax": 0.9955338541666666,
+							"xMax": 0.9999999999999998,
+							"yMin": 0.7603125,
+							"xMin": 0
+						}
+					},
+					{
+						"image": "fit_content_assets/tcfnojeuzwqdsxut40qv.png",
+						"caption": "# Tier 2\n## Reasonable cause that the covered entity knew about or should have known about the violation by exercising reasonable due diligence.<br><br>**$1,000 - $50,000 per violation**\n\n<span style=\"color:#000\"> Click anywhere to return to the main screen </span>",
+						"narration": null,
+						"region": {
+							"yMax": 0.7211979166666667,
+							"xMax": 0.9683543053244594,
+							"yMin": 0.5352473958333334,
+							"xMin": 0.06252807820299497
+						}
+					},
+					{
+						"image": "fit_content_assets/owwhrpb3vdordvnwkxfa.png",
+						"caption": "# Tier 3\n## Willful neglect of HIPAA Rules with the violation corrected within 30 days of discovery.<br><br>**$10,000 - $50,000 per violation**\n\n<span style=\"color:#000\"> Click anywhere to return to the main screen </span>",
+						"narration": null,
+						"region": {
+							"yMax": 0.47791666666666677,
+							"xMax": 0.9204709273606491,
+							"yMin": 0.3247265625,
+							"xMin": 0.08261835742512484
+						}
+					},
+					{
+						"image": "fit_content_assets/lalbwei2tp5kysspgkij.png",
+						"caption": "# Tier 4\n## Willful neglect of HIPAA Rules and no effort made to correct the violation within 30 days of discovery.<br><br>**$50,000 per violation**\n\n<span style=\"color:#000\"> Click anywhere to return to the main screen </span>",
+						"narration": "",
+						"region": {
+							"yMax": 0.3228255208333333,
+							"xMax": 0.9999999999999998,
+							"yMin": 0,
+							"xMin": -1.0853215165187555e-16
+						}
+					}
+				],
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "093fc78e-1b03-4cae-bd60-3272e09b3e6b",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Every HIPAA violation is treated the same.",
+							"questionId": "8e646c84-b4cd-4b45-9f86-c3e1a00fe1b0",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": false,
+								"answerId": "8dd60847-2eb9-46bd-8c03-ed3975080c94",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": true,
+								"answerId": "1bfed8d3-1e8c-4bb7-9281-c598bd8985b1",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "093fc78e-1b03-4cae-bd60-3272e09b3e6b"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "2bcb2f02-f476-49a9-b316-c67c56288475",
+						"content": "True",
+						"correct": false
+					},
+					{
+						"id": "8a8d39cd-0200-437b-bfdc-3c378c3c30e1",
+						"content": "False",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "HIPAA recognizes that  not all breaches are the same, and distinguishes between  \"one time\" unintentional and limited breaches and egregious errors of willful disregard.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Every HIPAA violation is treated the same.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "aac275f5-f9eb-472b-a66d-887325118351",
+			"type": "categorise",
+			"subtype": "true-or-false",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Categorize",
+			"templateDescription": "Drag to the correct category",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Willful neglect is considered when determining a HIPAA violation.",
+							"content": "Is the following statement true or false?",
+							"questionId": "604c0034-7953-4546-88e4-6d31b8126abb",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": true,
+								"answerId": "fcaa1b27-d5ae-45e3-ba3f-77e51e9a254e",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": false,
+								"answerId": "421bf213-c6c4-4366-b769-fdb4a56008ee",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "aac275f5-f9eb-472b-a66d-887325118351"
+			},
+			"data": {
+				"buttonText": "Willful neglect is considered when determining a HIPAA violation.",
+				"categories": [
+					{
+						"text": "True",
+						"correct": true
+					},
+					{
+						"text": "False",
+						"correct": false
+					}
+				],
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "**Intent** is a factor in HIPAA violations, and is treated as more serious breaches because the entity \"knew better,\" and failed to act appropriately.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag to the correct category",
+				"title": "Is the following statement true or false?",
+				"titleType": "text",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "f0133363-d73b-4ee6-88c0-6b8aef180c0d",
+			"type": "exit",
+			"subtype": "default",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "f0133363-d73b-4ee6-88c0-6b8aef180c0d"
+			},
+			"data": {
+				"content": "<p>Nice work. You've completed this lesson.</p><p></p><p>Please close this tab and return to the Content tab to complete the course</p>",
+				"buttonText": "Exit Lesson",
+				"title": "That's it!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "What Information is Protected? Copy",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090af"
+}
