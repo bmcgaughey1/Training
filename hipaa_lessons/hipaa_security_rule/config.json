@@ -1,0 +1,1091 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "d03f9970-65ab-4c22-a7ca-1b8708fd1538",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "d03f9970-65ab-4c22-a7ca-1b8708fd1538"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": true,
+				"title": "The Security Rule",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "49903a56-2f1c-4498-b255-ae88a56841f8",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "49903a56-2f1c-4498-b255-ae88a56841f8"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "fit_content_assets/czjeae1a8dgbqg7pptoq.jpg",
+						"caption": "# Security is not a one-time project."
+					},
+					{
+						"image": "fit_content_assets/v4loyzbqan88r9x37tsx.jpg",
+						"caption": "# It's an attitude, an ethos, laser-focused on protecting each patient's data."
+					},
+					{
+						"image": "fit_content_assets/rjue5c3slpsa7l6vqyzh.jpg",
+						"caption": "# Although the Security Rule is discusses ePHI (PHI in an electronic format)..."
+					},
+					{
+						"image": "fit_content_assets/topz31zuccigrqwzw8tn.jpg",
+						"caption": "# The restrictions and practices apply to \"hard copies\", too."
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "016aa170-6b69-4486-bb75-bb4d38091192",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Security policies and procedures, if well-designed, do not need to be reviewed and updated.",
+							"questionId": "7c3954c6-f712-40be-9009-0049bbf5e5d5",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": false,
+								"answerId": "e31450c1-bc12-470d-96a6-257135239efb",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": true,
+								"answerId": "18b7fb38-c509-41c6-9bef-3011ad6ba976",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "016aa170-6b69-4486-bb75-bb4d38091192"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "1af9e2db-7c17-4eb2-9187-cce2013994ac",
+						"content": "True",
+						"correct": false
+					},
+					{
+						"id": "7b18dd1c-0a03-4fc9-acb4-96ad691a26f7",
+						"content": "False",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "The world **changes**, and so do both threats and how an entity should respond to those threats.  It's important that Security practices - including training - keep pace.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Security policies and procedures, if well-designed, do not need to be reviewed and updated.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "88478a62-5c52-4fc6-a179-c9733fe8303e",
+			"type": "reveal",
+			"subtype": "reveal",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Reveal",
+			"templateDescription": "Flip cards to reveal more details",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "88478a62-5c52-4fc6-a179-c9733fe8303e"
+			},
+			"data": {
+				"content": [
+					{
+						"title": "**Confidentiality**",
+						"description": "## PHI is accessible only by authorized people and processes"
+					},
+					{
+						"title": "**Integrity**",
+						"description": "## PHI is not altered or destroyed in an unauthorized manner"
+					},
+					{
+						"title": "**Availability**",
+						"description": "## PHI can be accessed as needed by an authorized entity"
+					}
+				],
+				"prompt": "Select each item to find out more",
+				"focus": true,
+				"doneText": "Next",
+				"title": "**Important definitions according to HHS**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "89c100cc-55e4-4f27-abf5-3763be9354d3",
+			"type": "text-sequence",
+			"subtype": "text-sequence",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Sequence",
+			"templateDescription": "Display a sequence of text",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "89c100cc-55e4-4f27-abf5-3763be9354d3"
+			},
+			"data": {
+				"prompt": "Read more",
+				"label": "Step",
+				"canGoBack": true,
+				"doneText": "Next",
+				"content": [
+					"### Ensure the **confidentiality, integrity,** and **availability** of all electronic protected health information that the covered entity or business associate creates, receives, maintains, or transmits. ",
+					"### Protect against any reasonably anticipated **threats or hazards** to the security or integrity of such information.",
+					"### Protect against any reasonably anticipated **uses or disclosures** of such information that are not permitted or required.",
+					"### **Ensure compliance** with the rule by its workforce. ",
+					"_Source: 45 C.F.R. § 164.306(a) - Security standards: General rules_"
+				],
+				"title": "**Covered Entities (CE)** must...",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "f4bb09db-5bb7-4956-a844-8e4e90299efc",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Good security practices protect against any reasonably anticipated threats or hazards to the security or integrity of such information.",
+							"content": "reasonably",
+							"questionId": "ec8e76b1-8c33-4b11-8818-5dee8ba4b0a9",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "all",
+								"correct": false,
+								"answerId": "2c881bdc-00e4-421e-ac0c-d656ac34947d",
+								"type": "text"
+							},
+							{
+								"content": "integrity",
+								"correct": false,
+								"answerId": "0da27537-cf06-4ab3-97cf-e59354d6fbb3",
+								"type": "text"
+							},
+							{
+								"content": "format",
+								"correct": false,
+								"answerId": "58454086-434a-4ffa-8a90-7b00a973712f",
+								"type": "text"
+							},
+							{
+								"content": "reasonably",
+								"correct": true,
+								"answerId": "60b47341-c27d-4926-b6e9-1d9e3d1ca569",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Good security practices protect against any reasonably anticipated threats or hazards to the security or integrity of such information.",
+							"content": "integrity",
+							"questionId": "383f69c3-df05-44cb-b8e1-f6bb95e0dbf0",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "reasonably",
+								"correct": false,
+								"answerId": "50e26252-b6c6-4c6a-93b3-1aa270e88d71",
+								"type": "text"
+							},
+							{
+								"content": "all",
+								"correct": false,
+								"answerId": "b116aa6e-72a9-4da1-8d1e-b8e77c43ad72",
+								"type": "text"
+							},
+							{
+								"content": "format",
+								"correct": false,
+								"answerId": "d905cf0e-0ecb-44f3-8669-ced755f3cd4d",
+								"type": "text"
+							},
+							{
+								"content": "integrity",
+								"correct": true,
+								"answerId": "f582c906-8f54-49ec-a476-b08e0b840887",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Good security practices protect against any reasonably anticipated threats or hazards to the security or integrity of such information.",
+							"content": "format",
+							"questionId": "40a400ff-657d-47f1-a25a-20bc5c9da2a0",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "reasonably",
+								"correct": false,
+								"answerId": "25102872-41c3-4055-a397-75d449aa4596",
+								"type": "text"
+							},
+							{
+								"content": "all",
+								"correct": false,
+								"answerId": "04b59e57-a990-419b-852f-51b387dc59d1",
+								"type": "text"
+							},
+							{
+								"content": "integrity",
+								"correct": false,
+								"answerId": "c5e6bf39-6002-4013-a237-7f6aa15fa35d",
+								"type": "text"
+							},
+							{
+								"content": "format",
+								"correct": true,
+								"answerId": "1bfaeee6-d1a1-4ee5-b515-de139734ec38",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "f4bb09db-5bb7-4956-a844-8e4e90299efc"
+			},
+			"data": {
+				"words": [
+					"reasonably",
+					"all",
+					"integrity",
+					"format"
+				],
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "HIPAA includes consideration for the reasonableness of both a protection and a threat.  A small practice need not spend $1,000,000 to protect against an improbable or unlikely threat  (e.g., martial law or act of war).  But, HIPAA does expect a comprehensive analysis to distinguish  \"reasonable\" from \"unreasonable\" and enact appropriate safeguards.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "Good security practices protect against any reasonably anticipated threats or hazards to the security or integrity of such information.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "0258251b-64f8-403a-96b2-400d987a04c5",
+			"type": "text-sequence",
+			"subtype": "text-sequence",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Sequence",
+			"templateDescription": "Display a sequence of text",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "0258251b-64f8-403a-96b2-400d987a04c5"
+			},
+			"data": {
+				"prompt": "Read more",
+				"label": "Step",
+				"canGoBack": true,
+				"doneText": "Next",
+				"content": [
+					"# **Risk Analysis** \n## to discover potential unauthorized access and disclosure of PHI",
+					"# **Security Analysis** \n## to identify security measures that can be reasonably implemented to address risks identified in the risk analysis"
+				],
+				"title": "To determine appropriate safeguards, CE's **should** conduct two analyses:",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "7d60c81e-de6d-43f0-a593-01e41668d7e6",
+			"type": "chat",
+			"subtype": "one-of-three",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Chat",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"content": "What should we do first to implement the HIPAA Security Rule?",
+							"questionId": "44a8870a-e5cc-43cb-9ab0-a2e681cc03d8",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Purchase computer security software",
+								"correct": false,
+								"answerId": "44655f59-461a-41d8-b623-21a94aaf8f78",
+								"type": "text"
+							},
+							{
+								"content": "Change the locks on the doors",
+								"correct": false,
+								"answerId": "0d4debf8-3e5c-439c-b905-95fe126805c0",
+								"type": "text"
+							},
+							{
+								"content": "Conduct comprehensive risk and security analyses",
+								"correct": true,
+								"answerId": "2c9fea0d-9a2c-472e-999b-11f719d6a490",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "7d60c81e-de6d-43f0-a593-01e41668d7e6"
+			},
+			"data": {
+				"message": {
+					"responder": "What's your answer?",
+					"sender": "The Provider asks",
+					"content": "What should we do first to implement the HIPAA Security Rule?"
+				},
+				"answers": {
+					"correct": "Conduct comprehensive risk and security analyses",
+					"incorrect": [
+						"Purchase computer security software",
+						"Change the locks on the doors"
+					]
+				},
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "Adequate and appropriate security measures cannot be implemented without understanding the vulnerabilities and threats that risk and security analyses reveal.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": null,
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "90b04f8c-b398-4a65-ba2b-a67dbbf2e5c1",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "90b04f8c-b398-4a65-ba2b-a67dbbf2e5c1"
+			},
+			"data": {
+				"content": "## <center>Since no single safeguard is adequate, HIPAA defines three layered, overlapping types of safeguards to protect PHI.  <br><br>\n\n>* ## Administrative Safeguards\n>* ## Physical Safeguards\n>* ## Technical Safeguards</li>\n<br><br>\n<center>(This lesson includes only some of the important specific safeguards.  See <a href=\"https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/administrative/securityrule/security101.pdf\">hhs.gov</a> for a complete list of safeguards for Covered Entities)",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "Safeguards to Protect PHI",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "249ca83c-bf0a-4ce5-b391-b1c6ed7e2d0f",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select all that apply",
+							"content": "The HIPAA Security Rule safeguards include:",
+							"questionId": "c207bd65-56b1-4743-8eda-6794d5052c18",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Administrative",
+								"correct": true,
+								"answerId": "65e3398b-e7e9-4918-b538-51edb79ad6c2",
+								"type": "text"
+							},
+							{
+								"content": "Technical",
+								"correct": true,
+								"answerId": "17ba5eb1-2853-4f79-8113-4883a12da405",
+								"type": "text"
+							},
+							{
+								"content": "Physical",
+								"correct": true,
+								"answerId": "a6cbaad9-98ee-4a2b-8140-6a260fa3233f",
+								"type": "text"
+							},
+							{
+								"content": "Financial",
+								"correct": false,
+								"answerId": "30b80ea4-28f0-4db9-b517-c62697a61656",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "249ca83c-bf0a-4ce5-b391-b1c6ed7e2d0f"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 5,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "4294ef9e-f40d-4090-8c2c-69087051ccc4",
+						"content": "Administrative",
+						"correct": true
+					},
+					{
+						"id": "5c3b3b2d-d9a2-4d3e-b00a-690915b9fd92",
+						"content": "Technical",
+						"correct": true
+					},
+					{
+						"id": "0bf61c2f-fc97-4311-819d-71e88d8a3cc2",
+						"content": "Physical",
+						"correct": true
+					},
+					{
+						"id": "9fc9cdfb-7c20-4ae4-bd9e-8b77a9d17000",
+						"content": "Financial",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "HIPAA Security safeguards provide protection against breaches of **patient data**, not the financial data of the entity.  \n\nImplementing the HIPAA safeguards, however, will likely protect the management data of the entity.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select all correct answers",
+				"title": "The HIPAA Security Rule safeguards include:",
+				"titleType": "text",
+				"subtitle": "Select all that apply",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "9bdb59a7-1df7-45ac-a081-1f6c66459b96",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "9bdb59a7-1df7-45ac-a081-1f6c66459b96"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "- Identify and analyze potential risks to PHI \n- Implement security policies, procedures and practices  that reduce risks and vulnerabilities",
+						"title": "## <center>Security Management Process</center>"
+					},
+					{
+						"content": "- Designate a Security Officer responsible for security policies, procedures and practices",
+						"title": "## <center>Security Personnel</center>"
+					},
+					{
+						"content": "- Create, publish and apply security policies and procedures appropriate for each user's title/function (role-based access)",
+						"title": "## <center>Information Access Management</center>"
+					},
+					{
+						"content": "- Review, authorize and supervise users who work with PHI\n- Train all workforce members on security policies, procedures and practices\n- Reprimand, restrict and counsel workforce members who violate policies and procedures",
+						"title": "## <center>Workforce Training and Management</center>"
+					},
+					{
+						"content": "- Regularly review how security practices implement Security Rule",
+						"title": "## <center>Evaluation</center>"
+					}
+				],
+				"title": "Administrative Safeguards",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "eefac2df-1869-4ff9-baeb-a2daee5a419f",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 12,
+			"displayIndex": 12,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select all that apply",
+							"content": "Administrative Safeguards include:",
+							"questionId": "56919fd0-a8f9-438c-bc4d-f0b2e3629fe8",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Identify and analyze potential risks to PHI",
+								"correct": true,
+								"answerId": "64609f6e-c03d-40a2-ba25-4142901e0eb4",
+								"type": "text"
+							},
+							{
+								"content": "Designate a security officer responsible for security",
+								"correct": true,
+								"answerId": "f8a52993-7278-4427-8388-dd29b6d197a2",
+								"type": "text"
+							},
+							{
+								"content": "Implement security policies and procedures using role-based access",
+								"correct": true,
+								"answerId": "bac63204-6259-459a-b147-5dfd86543052",
+								"type": "text"
+							},
+							{
+								"content": "Train all workforce members on security policies and procedures",
+								"correct": true,
+								"answerId": "e0c4f5b3-1a72-4259-a41b-4407dbdba543",
+								"type": "text"
+							},
+							{
+								"content": "Regularly review how security practices implement Security Rule",
+								"correct": true,
+								"answerId": "3e9235b1-364a-4721-b982-e4af231449ad",
+								"type": "text"
+							},
+							{
+								"content": "Keep facilities locked when no one is present.",
+								"correct": false,
+								"answerId": "ae2e7096-5cd6-41b3-8530-d8347c943199",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "eefac2df-1869-4ff9-baeb-a2daee5a419f"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 6,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "74b65c58-a488-46d6-8606-29b576077ebc",
+						"content": "Identify and analyze potential risks to PHI",
+						"correct": true
+					},
+					{
+						"id": "8f83c191-d2a8-4810-b8ea-7fa1af6321e8",
+						"content": "Designate a security officer responsible for security",
+						"correct": true
+					},
+					{
+						"id": "dd768c38-e280-4109-ae61-fef038e274e8",
+						"content": "Implement security policies and procedures using role-based access",
+						"correct": true
+					},
+					{
+						"id": "6acf2c7d-9a99-4e8b-a346-8dde4a358f38",
+						"content": "Train all workforce members on security policies and procedures",
+						"correct": true
+					},
+					{
+						"id": "320e2d6f-17b7-4090-9bce-93998b16b5d9",
+						"content": "Regularly review how security practices implement Security Rule",
+						"correct": true
+					},
+					{
+						"id": "1d8d4e76-cc39-465c-9551-8fb39a8946bb",
+						"content": "Keep facilities locked when no one is present.",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "Administrative safeguards address the human and organizational factors that affect the privacy of patient data and how \"wetware\" is a key part of the safeguard mosaic that includes separate Physical and Technical safeguards..",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select all correct answers",
+				"title": "Administrative Safeguards include:",
+				"titleType": "text",
+				"subtitle": "Select all that apply",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "e53f2c27-d492-4236-8783-5f68a948199e",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 13,
+			"displayIndex": 13,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "e53f2c27-d492-4236-8783-5f68a948199e"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "- limit physical access to building or room while permitting authorized access",
+						"title": "## <center>Facility Access and Control</center>"
+					},
+					{
+						"content": "\n- define and and ensure processes for permitted, authorized access to workstations and electronic policies and procedures for all uses of electronic media",
+						"title": "## <center>Workstation and Device Security</center>"
+					}
+				],
+				"title": "**Physical Safeguards**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "6bd2a5af-9c09-4304-998f-6b369325e57b",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 14,
+			"displayIndex": 14,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "6bd2a5af-9c09-4304-998f-6b369325e57b"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "- create and enforce technical policies and procedures so only authorized persons access PHI",
+						"title": "## <center>Access Control</center>"
+					},
+					{
+						"content": "- create and enforce mechanisms (e.g., hardware, software, processes) to control and monitor PHI access and use",
+						"title": "## <center>Audit Controls</center>"
+					},
+					{
+						"content": "- create and enforce mechanisms (e.g., policies, processes, electronic methods), to prevent improper changes to or deletions of PHI",
+						"title": "## <center>Integrity Controls</center>"
+					},
+					{
+						"content": "- create and enforce mechanisms (e.g., policies, processes, electronic methods) against unauthorized access to PHI transmitted over electronic networks",
+						"title": "## <center>Transmission Security</center>"
+					}
+				],
+				"title": "**Technical Safeguards**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "26c3bade-4015-498f-b3ec-d2e265ad6287",
+			"type": "categorise",
+			"subtype": "true-or-false",
+			"name": 15,
+			"displayIndex": 15,
+			"templateName": "Categorize",
+			"templateDescription": "Drag to the correct category",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "The HIPAA Audit Controls require CE's to conduct semi-annual financial reviews.",
+							"content": "Is the following statement true or false?",
+							"questionId": "cbad05de-8986-49c8-9b0c-4e1c2324cc45",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": false,
+								"answerId": "f7da0424-3cc1-4cc5-84eb-001b3aa0fced",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": true,
+								"answerId": "2deda216-ec77-4e37-873b-b0113395a93c",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "26c3bade-4015-498f-b3ec-d2e265ad6287"
+			},
+			"data": {
+				"buttonText": "The HIPAA Audit Controls require CE's to conduct semi-annual financial reviews.",
+				"categories": [
+					{
+						"text": "True",
+						"correct": false
+					},
+					{
+						"text": "False",
+						"correct": true
+					}
+				],
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "HIPAA  does not address financial reviews.  But, it's a good idea to regularly review all of the HIPAA covered threats, vulnerabilities and safeguards .",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag to the correct category",
+				"title": "Is the following statement true or false?",
+				"titleType": "text",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "30e4e6fe-250f-4895-8e1f-ac059e7439b5",
+			"type": "exit",
+			"subtype": "default",
+			"name": 16,
+			"displayIndex": 16,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "30e4e6fe-250f-4895-8e1f-ac059e7439b5"
+			},
+			"data": {
+				"content": "",
+				"buttonText": "Exit Lesson",
+				"title": "<p>That's it, this lesson is finished.</p><p></p><h2>Strong safeguards require rigorous risk and security analyses to identify threats and vulnerabilities that require safeguards.</h2><p></p><h2>Please close this tab and return to the Content tab to complete the course</h2>",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "The Security Rule",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090b1"
+}
