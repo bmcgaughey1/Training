@@ -1,0 +1,678 @@
+{
+	"config": {
+		"background": "fit_content_assets/mrn1tobynht5qeh1v1lp.jpg",
+		"colors": {
+			"background": "#dae1e5",
+			"experimental": false,
+			"text": "#333",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\n\n\n/*/ Insert your company colors below,\nThe first four assets are the buttons in the course,\nFor the \".__active\" assets, reverse your colors (this is for when buttons are pressed)/*/\n\n.btn.btn-muted {background-color: white; color: black; border: 1px solid black;}\n.btn.btn-muted.__active {background-color: black; color: white; border: 1px solid black;}\n.btn.btn-solid {background-color: white; color: black; border: 1px solid black;}\n.btn.btn-solid.__active {background-color: black; color: white; border: 1px solid black;}\n\n/*/ This is the box in the corner of the screen that tells you the slide numbers /*/\n\n#lesson-header-nav {background-color: white; color: black; border: 1px solid black;}\n\n/*/ This is the progress bar at the top of the lesson /*/\n\n#indicator {background-color: white; color: black;}\n\n/*/ Below is the font for the lesson, you can change this by finding a font to import on Google Fonts /*/\n@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\nbody {font-family: 'Lato', sans-serif;}",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/ynuvnbd6ltswxzxvfegd.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "45f0dc08-05d8-4120-9ee0-52c6134a3de9",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "45f0dc08-05d8-4120-9ee0-52c6134a3de9"
+			},
+			"data": {
+				"prompt": "Swipe up to see more",
+				"items": [
+					{
+						"content": "fit_content_assets/tatgommuiw9qivz8k8uy.png",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "# **Personal Protective Equipment (PPE)**",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "## In this lesson, you will learn how to select, maintain, decontaminate, and dispose of Personal Protective Equipment (PPE) based on OSHA's PPE Standard in order to reduce exposure to Bloodborne Pathogens. ",
+						"contentType": "text",
+						"position": "Bottom",
+						"color": "",
+						"caption": "",
+						"imagePosition": "Middle",
+						"captionStyle": "Default"
+					}
+				],
+				"arrows": true,
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "b3c2e5c5-0d16-4d46-b12e-29a2be1732f8",
+			"type": "comparison",
+			"subtype": "reveal-further-information",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Comparison",
+			"templateDescription": "Juxtapose two items in a slider",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "b3c2e5c5-0d16-4d46-b12e-29a2be1732f8"
+			},
+			"data": {
+				"before": {
+					"contentType": "image",
+					"content": "fit_content_assets/wmzngplxdl8ygujsqbli.jpg",
+					"label": null
+				},
+				"after": {
+					"contentType": "text",
+					"content": "## In order to **reduce the risks** of exposure to bloodborne pathogens, PPEs must be **used at all times**. ",
+					"label": "## It is our duty to **provide** and **maintain** this equipment as deemed necessary by OSHA, without costing the workers. "
+				},
+				"startPosition": "Before - Start with the first section visible",
+				"prompt": "Drag bar from R to L to reveal the content",
+				"doneText": "Continue",
+				"title": "**Our Basic Responsibility**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "c1a25db9-79aa-485c-a6f3-bf8ca9133234",
+			"type": "image-map",
+			"subtype": "multiple-regions",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Image map",
+			"templateDescription": "Map out details through a series of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "c1a25db9-79aa-485c-a6f3-bf8ca9133234"
+			},
+			"data": {
+				"doneText": "Continue",
+				"zoom": true,
+				"stickyCaptions": true,
+				"url": "fit_content_assets/s0cs7kvpqif1qjsskfqn.png",
+				"prompt": "Click on each PPE Component.  Click again to return.",
+				"appearance": {
+					"waypointColor": "None"
+				},
+				"lightbox": {
+					"background": "white",
+					"textColor": "Black"
+				},
+				"waypoints": [
+					{
+						"image": "fit_content_assets/gmmrtupoehkdqmcki6kt.png",
+						"caption": "# **Eye Protection / Goggles**\n\n## These can protect your eyes from possible splashes, sprays, and splatters that are hazardous. \n",
+						"narration": null,
+						"region": {
+							"yMax": 0.23943648707316897,
+							"xMax": 0.9682420267489709,
+							"yMin": 0.050104166666666665,
+							"xMin": 0.5435257365132009
+						}
+					},
+					{
+						"image": "fit_content_assets/nxieaewgstrwzfennya1.jpg",
+						"caption": "# **Face Shield**\n\n## This is used in conjunction with eye goggles and masks for a higher reduction of risks. \n",
+						"narration": null,
+						"region": {
+							"yMax": 0.34063802083333333,
+							"xMax": 0.41836253209579727,
+							"yMin": 0.028580729166666666,
+							"xMin": 0.07598758542768962
+						}
+					},
+					{
+						"image": "fit_content_assets/afl2bkvzl5bdvn6etgsz.png",
+						"caption": "# **Boots**\n\n## Additional protective clothing against exposure to bloodborne pathogens and to prevent contamination of the workplace. \n",
+						"narration": null,
+						"region": {
+							"yMax": 0.6680729166666665,
+							"xMax": 0.30644759141968475,
+							"yMin": 0.3755338541666667,
+							"xMin": 0.0196962468007812
+						}
+					},
+					{
+						"image": "fit_content_assets/h8wwmbra2sfe7fx5igb6.png",
+						"caption": "# **Mask**\n\n## These can protect your mouth and nose from possible splashes, sprays, and splatters that are hazardous. \n",
+						"narration": "",
+						"region": {
+							"yMax": 0.9701822916666667,
+							"xMax": 0.9392680316725455,
+							"yMin": 0.7811067708333334,
+							"xMin": 0.6177036444360771
+						}
+					},
+					{
+						"image": "fit_content_assets/l2pojqkiifjwdbgyivi1.png",
+						"caption": "# **Protective Clothing**\n\n## Clothing that is used to protect your bodies against exposure. \n",
+						"narration": "",
+						"region": {
+							"yMax": 0.7434505208333337,
+							"xMax": 0.8964836754023775,
+							"yMin": 0.24973958333333324,
+							"xMin": 0.43213553341338534
+						}
+					},
+					{
+						"image": "fit_content_assets/pqpzppyuiugiawc79lft.png",
+						"caption": "# **Gloves**\n\n## These are to be worn when you will be in contact with blood, OPIM(Other potentially infectious materials), contaminated surfaces or objects.",
+						"narration": "",
+						"region": {
+							"yMax": 0.9879817708333334,
+							"xMax": 0.567534085396943,
+							"yMin": 0.6939453125,
+							"xMin": 0.07054940000231985
+						}
+					}
+				],
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "47350491-eae1-428f-baac-0998c3c75bba",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "47350491-eae1-428f-baac-0998c3c75bba"
+			},
+			"data": {
+				"prompt": "Click to see more",
+				"items": [
+					{
+						"content": "fit_content_assets/hrug3vw2ovau4mhpcjjk.jpg",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "# **Selecting your Personal Protective Equipment**\n\n## Ensure that the equipment/s to be used are appropriate to the exposure that will be encountered at work. ",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/zjqtn0fokjwmp6wbbyw0.jpg",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## **Lab coats, gowns, smocks, and uniforms** are important when working in HIV and HBV research laboratories and production facilities. ",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					}
+				],
+				"arrows": true,
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "e542c22d-01ff-46ab-87e7-ae4aa5bbed84",
+			"type": "reveal",
+			"subtype": "reveal",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Reveal",
+			"templateDescription": "Flip cards to reveal more details",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "e542c22d-01ff-46ab-87e7-ae4aa5bbed84"
+			},
+			"data": {
+				"content": [
+					{
+						"title": "**DECONTAMINATION**",
+						"description": "Gloves may be decontaminated only when its effectivity in providing protection is not compromised. "
+					},
+					{
+						"title": "**REPLACEMENT**",
+						"description": "Gloves that show cracking, peeling, tearing, puncturing, or that are deteriorating, must be replaced. "
+					},
+					{
+						"title": "**ALTERNATIVE**",
+						"description": "Workers that are allergic to the available gloves will be provided non-latex gloves, glove liners, powderless gloves, or other alternatives. "
+					}
+				],
+				"prompt": "Select each item to find out more",
+				"focus": true,
+				"doneText": "Continue",
+				"title": "**Proper Handling of Gloves**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "9054ff48-16ab-4662-9746-8aec32c26e28",
+			"type": "multiple-choice-game",
+			"subtype": "subset-of-four",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select all that apply",
+							"content": "In blood donation centers, wearing gloves is necessary when: ",
+							"questionId": "af2efc22-ff84-42ea-a511-0a95efab2230",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "You have cuts, scratches, or other breaks in the skin",
+								"correct": true,
+								"answerId": "77b8e3cc-88d3-4633-afa3-2500445be77f",
+								"type": "text"
+							},
+							{
+								"content": "During training",
+								"correct": true,
+								"answerId": "075bc3f4-98ee-46a6-b9f7-0406817b401d",
+								"type": "text"
+							},
+							{
+								"content": "Possibility for hand contamination",
+								"correct": true,
+								"answerId": "c7e3f44b-25f0-4638-98c5-4a4c633f6d49",
+								"type": "text"
+							},
+							{
+								"content": "While eating outside the work area",
+								"correct": false,
+								"answerId": "43f6cb93-cc5c-4aeb-b8f9-400297540672",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "9054ff48-16ab-4662-9746-8aec32c26e28"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 3,
+				"randomize": true,
+				"doneText": "Continue",
+				"answers": [
+					{
+						"id": "3270feef-06c2-d32c-dce4-d64f2eea80f0",
+						"content": "You have cuts, scratches, or other breaks in the skin",
+						"correct": true
+					},
+					{
+						"id": "083ff6ee-7af0-1f82-bac5-6940d650bc5d",
+						"content": "During training",
+						"correct": true
+					},
+					{
+						"id": "c97fda63-eb7e-7140-c4f9-4915c04a8091",
+						"content": "Possibility for hand contamination",
+						"correct": true
+					},
+					{
+						"id": "e274986f-c6d8-4247-b94b-3867a2c82b76",
+						"content": "While eating outside the work area",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "In blood donation centers, wearing gloves is necessary when you have cuts, scratches, or other breaks in your skin, during training, and when there is a possibility for hand contamination. ",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select all correct answers",
+				"title": "In blood donation centers, wearing gloves is necessary when: ",
+				"titleType": "text",
+				"subtitle": "Select all that apply",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "329cb9d1-26a9-4980-b4a4-8a623f12eb31",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "329cb9d1-26a9-4980-b4a4-8a623f12eb31"
+			},
+			"data": {
+				"prompt": "<span style=\"color:white;\">Click to see more</span>",
+				"items": [
+					{
+						"content": "fit_content_assets/sz1vxwtyulpc9arz26yu.jpg",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "## Decontaminating and Disposing PPE",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/pf3qqdgy6nf8urfeg2x7.png",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "## Remove immediately when a garment is penetrated by blood or OPIM, and before leaving the work area.",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/tealu8szum6l9rcafu6c.png",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## After removal, place at the proper designated area or container for storage, washing, decontamination, or disposal. ",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/nkb36mkgkyxrivi5gm3l.png",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "## We will ensure that you **wash your hands** as soon as gloves, or other protective equipments, are removed. ",
+						"imagePosition": "Cover",
+						"captionStyle": "Dark"
+					}
+				],
+				"arrows": true,
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "d15acc15-b277-42fc-8d09-367bc2de8919",
+			"type": "matrix",
+			"subtype": "matrix",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Multi-question",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "In foregoing the use of PPE under extraordinary circumstances",
+							"content": "The decision is based on the judgment of ",
+							"questionId": "96e64b17-11b1-4ea3-bd13-02fed457d223",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "the management",
+								"correct": false,
+								"answerId": "8fdbea03-fd42-4096-9c97-84ed4ddedbf8",
+								"type": "text"
+							},
+							{
+								"content": "the co-worker",
+								"correct": false,
+								"answerId": "33edd504-7e2d-4d02-810a-5456046eea71",
+								"type": "text"
+							},
+							{
+								"content": "the worker",
+								"correct": true,
+								"answerId": "a74fb11b-4a16-4677-a927-ce838ede12a1",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "In foregoing the use of PPE under extraordinary circumstances",
+							"content": "under the circumstance that",
+							"questionId": "3367974a-1309-4466-8b37-87c43341adb1",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "it is extremely uncomfortable.",
+								"correct": false,
+								"answerId": "d7090a9a-68dd-43b6-8c46-bfa3f648e27c",
+								"type": "text"
+							},
+							{
+								"content": "it hinders flexibility.",
+								"correct": false,
+								"answerId": "ec366cbe-f685-4e33-aedf-40a04c748070",
+								"type": "text"
+							},
+							{
+								"content": "it will pose an increased hazard.",
+								"correct": true,
+								"answerId": "edebe13b-2826-469b-86a0-5d5197eaa1d7",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "In foregoing the use of PPE under extraordinary circumstances",
+							"content": "Once it occurred, investigating and documentation for future reference is the responsibility of",
+							"questionId": "7b8d0a14-360b-4f2c-9922-015e0048ad7e",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "the worker.",
+								"correct": false,
+								"answerId": "7d1f9878-0e9f-4b81-9c97-9f561826a52f",
+								"type": "text"
+							},
+							{
+								"content": "the co-worker.",
+								"correct": false,
+								"answerId": "7792d4a9-178a-47f9-9123-8b92b6cbea4c",
+								"type": "text"
+							},
+							{
+								"content": "the management.",
+								"correct": true,
+								"answerId": "1b94cbb6-e420-434a-9a99-4958ffb9f15e",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "d15acc15-b277-42fc-8d09-367bc2de8919"
+			},
+			"data": {
+				"doneText": "Continue",
+				"columns": [
+					{
+						"title": "The decision is based on the judgment of ",
+						"correct": "the worker",
+						"incorrect": [
+							"the management",
+							"the co-worker"
+						]
+					},
+					{
+						"title": "under the circumstance that",
+						"correct": "it will pose an increased hazard.",
+						"incorrect": [
+							"it is extremely uncomfortable.",
+							"it hinders flexibility."
+						]
+					},
+					{
+						"title": "Once it occurred, investigating and documentation for future reference is the responsibility of",
+						"correct": "the management.",
+						"incorrect": [
+							"the worker.",
+							"the co-worker."
+						]
+					}
+				],
+				"answer": {
+					"takeaway": "Remember that it is only under **extremely rare situations** that the OSHA expects this to happen. This does not exempt entirely the use of PPEs in the workplace. ",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "The decision to forego the use of PPE is based on the **judgment of the worker**, under circumstances that it will pose an **increased hazard**. The **management will investigate and document** the occurrence to prevent similar situations from happening in the future.  ",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select each correct answer",
+				"title": "In foregoing the use of PPE under extraordinary circumstances",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "b7eaa480-cc9d-4f2e-9f52-26427d0a9a8a",
+			"type": "exit",
+			"subtype": "default",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "b7eaa480-cc9d-4f2e-9f52-26427d0a9a8a"
+			},
+			"data": {
+				"content": "Great job in completing the lesson.\n\nPlease close this tab and return to the Content tab to complete the course",
+				"buttonText": "",
+				"title": "All set!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "Personal Protective Equipment (PPE)",
+	"index": 0,
+	"scorm": true,
+	"id": "699b605dd964e23dbc3f5567"
+}
