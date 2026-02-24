@@ -1,0 +1,927 @@
+{
+	"config": {
+		"background": "fit_content_assets/mrn1tobynht5qeh1v1lp.jpg",
+		"colors": {
+			"background": "#dae1e5",
+			"experimental": false,
+			"text": "#333",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\n\n\n/*/ Insert your company colors below,\nThe first four assets are the buttons in the course,\nFor the \".__active\" assets, reverse your colors (this is for when buttons are pressed)/*/\n\n.btn.btn-muted {background-color: white; color: black; border: 1px solid black;}\n.btn.btn-muted.__active {background-color: black; color: white; border: 1px solid black;}\n.btn.btn-solid {background-color: white; color: black; border: 1px solid black;}\n.btn.btn-solid.__active {background-color: black; color: white; border: 1px solid black;}\n\n/*/ This is the box in the corner of the screen that tells you the slide numbers /*/\n\n#lesson-header-nav {background-color: white; color: black; border: 1px solid black;}\n\n/*/ This is the progress bar at the top of the lesson /*/\n\n#indicator {background-color: white; color: black;}\n\n/*/ Below is the font for the lesson, you can change this by finding a font to import on Google Fonts /*/\n@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\nbody {font-family: 'Lato', sans-serif;}",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/ynuvnbd6ltswxzxvfegd.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "ed77f08e-67ae-4e69-a34e-305dbdadc28d",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "ed77f08e-67ae-4e69-a34e-305dbdadc28d"
+			},
+			"data": {
+				"prompt": "Click to see more",
+				"items": [
+					{
+						"content": "fit_content_assets/ykwb09wimusmzqobll5b.jpg",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "# What is an **Exposure Incident**?",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "## Any instance that you've been potentially exposed to bloodborne pathogens or **other potentially infectious materials (OPIM)**, as defined in the standard, that happens from the performance of your duties.",
+						"contentType": "text",
+						"position": "Bottom",
+						"color": "",
+						"caption": "",
+						"imagePosition": "Middle",
+						"captionStyle": "Default"
+					}
+				],
+				"arrows": true,
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "0735210b-1679-4e7d-8847-a208aac02199",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "0735210b-1679-4e7d-8847-a208aac02199"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Continue",
+				"list": [
+					{
+						"content": "## (eg, eyes, mouth, or nose)",
+						"title": "Contact with any mucous membrane "
+					},
+					{
+						"content": "## (eg, cuts, scrapes, rashes, dermatitis, acne, hangnails)",
+						"title": "Contact with non-intact skin"
+					},
+					{
+						"content": "## (eg, a needle, glass, scalpel.\n\n'Parenteral' means there is a piercing of the skin or mucous membrane which can occur due to events such as needlesticks, cuts, abrasions, and human bites.",
+						"title": "Parenteral contact with a contaminated item"
+					}
+				],
+				"title": "Exposure Incidents can occur in the following forms:",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "0c1b22d6-e7c7-442c-bb52-95bcb2ed0544",
+			"type": "multiple-choice-game",
+			"subtype": "subset-of-four",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Which of the following is not an exposure incident:",
+							"questionId": "a8b5998f-ae32-4d9a-ac0a-dd8aaf88a707",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Contact with clothing or hair.",
+								"correct": true,
+								"answerId": "9932262d-4990-4e45-a69d-337b8bb54556",
+								"type": "text"
+							},
+							{
+								"content": "Contact with any mucous membrane.",
+								"correct": false,
+								"answerId": "ea004e16-09d0-4d10-afee-70d713a6d3ba",
+								"type": "text"
+							},
+							{
+								"content": "Contact with non-intact skin.",
+								"correct": false,
+								"answerId": "71fcbb43-f262-44fc-94d5-c662eb031b2f",
+								"type": "text"
+							},
+							{
+								"content": "Parenteral contact with a contaminated item.",
+								"correct": false,
+								"answerId": "f16474d1-f6ff-4629-8d03-5f61a89010eb",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "0c1b22d6-e7c7-442c-bb52-95bcb2ed0544"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": true,
+				"doneText": "Continue",
+				"answers": [
+					{
+						"id": "65348651-7fc2-00eb-799c-2df95439df35",
+						"content": "Contact with clothing or hair.",
+						"correct": true
+					},
+					{
+						"id": "f1f28ea0-19fe-196f-8042-4fd52009fa29",
+						"content": "Contact with any mucous membrane.",
+						"correct": false
+					},
+					{
+						"id": "8d04cd0b-c41e-921c-56cb-c90d723a6301",
+						"content": "Contact with non-intact skin.",
+						"correct": false
+					},
+					{
+						"id": "f68db891-8df8-b670-2d0b-647b3895a786",
+						"content": "Parenteral contact with a contaminated item.",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "\n",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Which of the following is not an exposure incident:",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "c088eca0-af92-4a38-b3f4-656f03a2594e",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Any instance that you've been potentially exposed to bloodborne pathogens or other potentially infectious materials, as defined in the standard, that happens from the performance of your duties is considered an exposure incident. ",
+							"content": "bloodborne pathogens",
+							"questionId": "98148906-ad65-47cc-bc25-3987deb76ef6",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "performance of your duties",
+								"correct": false,
+								"answerId": "8a837493-ea4f-4853-954f-ea8396500162",
+								"type": "text"
+							},
+							{
+								"content": "exposure incident",
+								"correct": false,
+								"answerId": "941be4bb-5da1-441a-8cfb-a43a9a5b38ce",
+								"type": "text"
+							},
+							{
+								"content": "bloodborne pathogens",
+								"correct": true,
+								"answerId": "57660c02-98ae-4ea5-8389-ae0ca2d73aca",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Any instance that you've been potentially exposed to bloodborne pathogens or other potentially infectious materials, as defined in the standard, that happens from the performance of your duties is considered an exposure incident. ",
+							"content": "performance of your duties",
+							"questionId": "ad5ffc0a-4e5c-4bb8-a3f5-770a9066c954",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "bloodborne pathogens",
+								"correct": false,
+								"answerId": "7abf647e-c3fc-4e14-8e9e-78f6c882f015",
+								"type": "text"
+							},
+							{
+								"content": "exposure incident",
+								"correct": false,
+								"answerId": "bc9bdf2d-aded-4515-889a-344b593e1dbe",
+								"type": "text"
+							},
+							{
+								"content": "performance of your duties",
+								"correct": true,
+								"answerId": "3b421908-ac93-41af-ae87-f0988968b0f2",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Any instance that you've been potentially exposed to bloodborne pathogens or other potentially infectious materials, as defined in the standard, that happens from the performance of your duties is considered an exposure incident. ",
+							"content": "exposure incident",
+							"questionId": "58793507-1990-4008-ae2f-06351cdef2e9",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "bloodborne pathogens",
+								"correct": false,
+								"answerId": "5cee9805-eea4-4605-a7a9-3920f708bf2e",
+								"type": "text"
+							},
+							{
+								"content": "performance of your duties",
+								"correct": false,
+								"answerId": "ac1e3037-51ae-44a1-a8ab-e40481631fb6",
+								"type": "text"
+							},
+							{
+								"content": "exposure incident",
+								"correct": true,
+								"answerId": "ca392eb6-e2be-465e-a110-3f18e923addb",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "c088eca0-af92-4a38-b3f4-656f03a2594e"
+			},
+			"data": {
+				"words": [
+					"bloodborne pathogens",
+					"performance of your duties",
+					"exposure incident"
+				],
+				"doneText": "Continue",
+				"answer": {
+					"takeaway": "Any instance that you've been potentially exposed to** bloodborne pathogens** or other potentially infectious materials (OPIM), as defined in the standard, that happens from the **performance of your duties** is considered an **exposure incident**.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "Any instance that you've been potentially exposed to bloodborne pathogens or other potentially infectious materials, as defined in the standard, that happens from the performance of your duties is considered an exposure incident. ",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "190e20ed-c60f-4e4a-9238-88df10e3d393",
+			"type": "categorise",
+			"subtype": "true-or-false",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Categorize",
+			"templateDescription": "Drag to the correct category",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Exposure Incidents can occur in the forms of contact with non-intact skin (eg, rashes, cuts, hangnails).",
+							"content": "Is the following statement true or false?",
+							"questionId": "b559ff0b-7bc5-4d4c-a8f2-59bb4821a1c0",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": true,
+								"answerId": "140144d0-29c4-4eed-8aa8-536c85bc58d6",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": false,
+								"answerId": "b0f6f705-0691-4783-9a6f-f2b2e5b89aea",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "190e20ed-c60f-4e4a-9238-88df10e3d393"
+			},
+			"data": {
+				"buttonText": "Exposure Incidents can occur in the forms of contact with non-intact skin (eg, rashes, cuts, hangnails).",
+				"categories": [
+					{
+						"text": "True",
+						"correct": true
+					},
+					{
+						"text": "False",
+						"correct": false
+					}
+				],
+				"doneText": "Continue",
+				"answer": {
+					"takeaway": "Exposure Incidents can occur in the forms of contact with any non-intact skin **(eg, cuts, scrapes, rashes, dermatitis, acne, hangnails)**",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "The answer is **True **.",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag to the correct category",
+				"title": "Is the following statement true or false?",
+				"titleType": "text",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "16f719b3-9b70-42c5-9827-1e95d8544529",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "16f719b3-9b70-42c5-9827-1e95d8544529"
+			},
+			"data": {
+				"prompt": "Click to see more",
+				"items": [
+					{
+						"content": "fit_content_assets/qhy8tgk2h5mg8jrbtwch.png",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "# Why should you immediately report an exposure incident?\n\n## Exposure incidents can lead to infection with **Hepatitis B virus (HBV)**, **Hepatitis C virus (HCV), human immunodeficiency virus (HIV)**, or other bloodborne pathogens and will need immediate evaluation.",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/lzdcb7xnirltpndjgwox.png",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## **Immediate Medical Evaluation**\n\n## Reporting an exposure incident right away allows us to arrange for your immediate medical evaluation.",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/c9ng2h4fxfgc2vkz5avq.jpg",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## **Immediate Intervention to Avoid Spreading**\n\n## Early reporting is crucial for you as it allows us to begin immediate intervention and address any possible infection. It will also help you take care of your co-workers by avoiding any possible spreading of bloodborne infections to others.",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/el425rhwapqnoqr2k36o.png",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## **Evaluation of the Circumstances for Prevention**\n\n## Reporting an exposure incident immediately allows us to check the circumstances surrounding the incident in a timely manner and find ways of preventing such a situation from happening again. ",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/xaqohsdf12b1tmbfgqnf.png",
+						"contentType": "image",
+						"position": "Middle",
+						"color": "",
+						"caption": "## **Identifying the Source Individual**\n\n## Unless impossible or prohibited by state or local law, we'd need to determine the source’s HBV and HIV infectivity status.\n",
+						"imagePosition": "Cover",
+						"captionStyle": "Default"
+					}
+				],
+				"arrows": true,
+				"doneText": "Continue",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "93ef64ae-f19a-4953-bb92-1af470c0a3b1",
+			"type": "comparison",
+			"subtype": "reveal-further-information",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Comparison",
+			"templateDescription": "Juxtapose two items in a slider",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "93ef64ae-f19a-4953-bb92-1af470c0a3b1"
+			},
+			"data": {
+				"before": {
+					"contentType": "text",
+					"content": "## If** you consent**, and your infectivity status is not already known, we would  need to test your blood as soon as possible.",
+					"label": null
+				},
+				"after": {
+					"contentType": "text",
+					"content": "## If you** do not consent**, we will establish that legally required consent cannot be obtained. ",
+					"label": "## If **state or local law allows testing without your consent**, we will have to test the your blood, if it is available. \n\n## The results of these tests will be made available to you and any of your exposed co-workers and we will inform you of the laws and regulations about disclosing."
+				},
+				"startPosition": "Before - Start with the first section visible",
+				"prompt": "Drag bar from R to L to reveal the content",
+				"doneText": "Continue",
+				"title": "Your consent matters.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "5c160403-cf33-41b7-8725-d58b0b3b0c0b",
+			"type": "multiple-choice-game",
+			"subtype": "subset-of-four",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Exposure incidents can lead to:",
+							"questionId": "49ea05a3-b7c6-4851-a8f8-9218efe5d0d0",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Human immunodeficiency virus (HIV)",
+								"correct": false,
+								"answerId": "b315ef0f-b8ef-4103-b669-1ff9205d5a7d",
+								"type": "text"
+							},
+							{
+								"content": "Hepatitis B virus (HBV)",
+								"correct": false,
+								"answerId": "eaa56515-bc23-4dce-892e-dcb2810d96f5",
+								"type": "text"
+							},
+							{
+								"content": "Hepatitis C virus (HCV)",
+								"correct": false,
+								"answerId": "4e89a2b0-ef45-4638-a9be-117d296c8370",
+								"type": "text"
+							},
+							{
+								"content": "All of the above",
+								"correct": true,
+								"answerId": "006abe7c-25c7-4a6f-8e84-f924521b778d",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "5c160403-cf33-41b7-8725-d58b0b3b0c0b"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Continue",
+				"answers": [
+					{
+						"id": "cd0a7e2a-9dae-7011-25d9-b44a1a146785",
+						"content": "Human immunodeficiency virus (HIV)",
+						"correct": false
+					},
+					{
+						"id": "3e13c280-d495-f754-0445-bb13e648b59e",
+						"content": "Hepatitis B virus (HBV)",
+						"correct": false
+					},
+					{
+						"id": "0519ee49-9028-57d2-dcd4-32f43dcc72cf",
+						"content": "Hepatitis C virus (HCV)",
+						"correct": false
+					},
+					{
+						"id": "a0de0ff8-201f-9fb3-ae19-800204e68b68",
+						"content": "All of the above",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "Exposure incidents can lead to infection with **Hepatitis B virus (HBV)**, **Hepatitis C virus (HCV), human immunodeficiency virus (HIV)**, or other bloodborne pathogens.",
+					"incorrect": "Almost!",
+					"correct": "That's correct!",
+					"text": "**All of the above** is the correct answer.",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Exposure incidents can lead to:",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "b92c7058-ae31-40e6-90a8-d97022056d42",
+			"type": "reveal",
+			"subtype": "reveal",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Reveal",
+			"templateDescription": "Flip cards to reveal more details",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "b92c7058-ae31-40e6-90a8-d97022056d42"
+			},
+			"data": {
+				"content": [
+					{
+						"title": "It's free!",
+						"description": "We will provide you with immediate confidential medical evaluation at a reasonable time and place (including tests from an accredited laboratory).\n"
+					},
+					{
+						"title": "Performed by licensed physician or other healthcare professional",
+						"description": "Your post exposure evaluation and follow-up will be  performed by, or under the supervision of, a licensed physician or other\nlicensed healthcare professional."
+					},
+					{
+						"title": "Other U.S. Public Health Service (USPHS) recommendations",
+						"description": "We will provide any other medical evaluation recommendations of the U.S. Public Health Service (USPHS) current at the time the procedures take place."
+					},
+					{
+						"title": "Post-exposure prophylaxis",
+						"description": "When medically indicated, we will offer you post-exposure prophylaxis for HIV, HBV, and HCV in accordance to the current recommendations of the U.S. Public Health Service"
+					}
+				],
+				"prompt": "Select each item to find out more",
+				"focus": true,
+				"doneText": "Continue",
+				"title": "Post Exposure Evaluation",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "cf082eca-74ad-4c07-92bd-ce7cd801735e",
+			"type": "scrolling-media",
+			"subtype": "scrolling-media",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Scrolling mix",
+			"templateDescription": "Display long form content of any type",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "cf082eca-74ad-4c07-92bd-ce7cd801735e"
+			},
+			"data": {
+				"content": [
+					{
+						"content": "Counseling about the possible implications of the exposure and your infection status.",
+						"contentType": "text"
+					},
+					{
+						"content": "fit_content_assets/zyxdj0juvkafrszvwo69.jpg",
+						"contentType": "image"
+					},
+					{
+						"content": "Results and interpretation of all tests and how to protect your personal contacts.",
+						"contentType": "text"
+					},
+					{
+						"content": "fit_content_assets/xpuegj2zmn1uvocketoo.jpg",
+						"contentType": "image"
+					},
+					{
+						"content": "Evaluation of any reported illnesses that may be related to your exposure.",
+						"contentType": "text"
+					},
+					{
+						"content": "fit_content_assets/sgpxoz4fwrzyckdcuqno.jpg",
+						"contentType": "image"
+					}
+				],
+				"prompt": "Scroll to see more",
+				"doneText": "Continue",
+				"preventFocus": true,
+				"title": "What should you expect on a post-exposure follow-up?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "5351f614-dc44-4b87-aa41-20bd623745c0",
+			"type": "text-sequence",
+			"subtype": "text-sequence",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Sequence",
+			"templateDescription": "Display a sequence of text",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "5351f614-dc44-4b87-aa41-20bd623745c0"
+			},
+			"data": {
+				"prompt": "Read more",
+				"label": "Step",
+				"canGoBack": true,
+				"doneText": "Continue",
+				"content": [
+					"We will provide you with copy of the evaluating healthcare professional’s written opinion within 15 days of completion of the evaluation.",
+					"The written opinion will include whether hepatitis B vaccination was recommended for you.",
+					"The healthcare provider will inform you of the results of the evaluation and any medical conditions resulting from exposure to blood or other potentially infectious materials (OPIM) which require further evaluation or treatment."
+				],
+				"title": "What should be on a written opinion?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "2abeeaec-32e0-4994-9e81-3449137c3971",
+			"type": "number-picker",
+			"subtype": "integer",
+			"name": 12,
+			"displayIndex": 12,
+			"templateName": "Number picker",
+			"templateDescription": "Select the correct number",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"content": "Within how many days should we provide you with, the copy of your evaluating healthcare professional’s **written opinion** upon completion?",
+							"questionId": "557079b9-315b-4aa3-b006-7d12de81f03b",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "15",
+								"correct": true,
+								"answerId": "de0cda13-35cb-470d-b3e7-8d7bafbab601",
+								"type": "number"
+							},
+							{
+								"correct": false,
+								"answerId": "b4fe23fe-716f-4f18-b108-4d5de3cf2532",
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				],
+				"slideId": "2abeeaec-32e0-4994-9e81-3449137c3971"
+			},
+			"data": {
+				"number": {
+					"digits": 2,
+					"max": 20,
+					"min": 0,
+					"initial": 0,
+					"prefix": "",
+					"suffix": ""
+				},
+				"doneText": "Continue",
+				"answer": {
+					"takeaway": "",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "We will provide you with copy of the evaluating healthcare professional’s written opinion within **15 days** of completion of the evaluation",
+					"value": 15
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct number",
+				"title": "Within how many days should we provide you with, the copy of your evaluating healthcare professional’s **written opinion** upon completion?",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "5eeaf7de-a23f-4697-933d-edd82deb5d06",
+			"type": "exit",
+			"subtype": "default",
+			"name": 13,
+			"displayIndex": 13,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "5eeaf7de-a23f-4697-933d-edd82deb5d06"
+			},
+			"data": {
+				"content": "You've taken charge of your safety!\n\nPlease close this tab and return to the Content tab to complete the course",
+				"buttonText": "",
+				"title": "Nicely done!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "Exposure Incidents",
+	"index": 0,
+	"scorm": true,
+	"id": "699b605dd964e23dbc3f5564"
+}
