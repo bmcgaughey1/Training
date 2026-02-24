@@ -1,0 +1,1134 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "059cbbc7-a48a-4c6e-bd45-efb850b11144",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "059cbbc7-a48a-4c6e-bd45-efb850b11144"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": false,
+				"title": "**The Privacy Rule of 2000**",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "c2c35619-e7ba-4d92-a0b9-aea7c3e5abd7",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "c2c35619-e7ba-4d92-a0b9-aea7c3e5abd7"
+			},
+			"data": {
+				"content": "<center><h1>The **Privacy Rule** describes how a covered entity can use and disclose PHI.\n",
+				"prompt": "Scroll to see more",
+				"doneText": "Continue",
+				"title": "",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "97364703-e9f3-4718-974b-e0f6a5d52201",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "The Privacy Rule describes how a covered entity can use and disclose PHI.",
+							"content": "Privacy",
+							"questionId": "8f8ba910-c572-4cf7-835e-1e70b9f992bc",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Security",
+								"correct": false,
+								"answerId": "273ac40f-b679-4b57-be14-40dd35323c3d",
+								"type": "text"
+							},
+							{
+								"content": "disclose",
+								"correct": false,
+								"answerId": "6639681f-6550-4176-ad9b-6204f2c5dcc4",
+								"type": "text"
+							},
+							{
+								"content": "format",
+								"correct": false,
+								"answerId": "50dd49bf-05fb-4257-a68e-db898720fc62",
+								"type": "text"
+							},
+							{
+								"content": "Privacy",
+								"correct": true,
+								"answerId": "22197553-a15e-47e0-8ba5-efc70a51eb1f",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "The Privacy Rule describes how a covered entity can use and disclose PHI.",
+							"content": "disclose",
+							"questionId": "c70c8706-3b20-426a-a6ee-3e3cfdc21aff",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Privacy",
+								"correct": false,
+								"answerId": "2336f0ec-a845-44b2-bee7-94a842927047",
+								"type": "text"
+							},
+							{
+								"content": "Security",
+								"correct": false,
+								"answerId": "f49598d5-fbfb-472a-94de-4909432760a3",
+								"type": "text"
+							},
+							{
+								"content": "format",
+								"correct": false,
+								"answerId": "3b42caba-9def-4545-8818-42959b927404",
+								"type": "text"
+							},
+							{
+								"content": "disclose",
+								"correct": true,
+								"answerId": "e9398108-b7a1-43c3-abdb-1cde61f6eaf0",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "97364703-e9f3-4718-974b-e0f6a5d52201"
+			},
+			"data": {
+				"words": [
+					"Privacy",
+					"Security",
+					"disclose",
+					"format"
+				],
+				"doneText": "Ok, I'm done",
+				"answer": {
+					"takeaway": "**Privacy** is at the heart of HIPAA, and the Privacy Rule fines standards that determine how a patient's information - and what information - may be disclosed, and what the **rights** of the patient are to know about and control  disclosures.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "The Privacy Rule describes how a covered entity can use and disclose PHI.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "270b93c0-10c2-4cd1-9ebf-aa0920bd8db8",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "270b93c0-10c2-4cd1-9ebf-aa0920bd8db8"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "",
+						"caption": "# Although **HIPAA** strictly speaks about health data stored and transmitted electronically, a patient's health data, in _ANY_ form, should _ALWAYS_ be treated as covered by HIPAA."
+					},
+					{
+						"image": "",
+						"caption": "# HIPAA is not the only constraint on a patient's health information - national and state privacy and security rules apply too."
+					},
+					{
+						"image": "",
+						"caption": "# When unsure, it's best to assume that **ALL** healthcare information about a person, and **ANY** disclosure, is covered by HIPAA, and should be discussed with your organization's HIPAA-mandated **Privacy Officer.** <br>\n## (more on Privacy Officers on screen 13/15 of this lesson)"
+					}
+				],
+				"doneText": "Next ",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "4e9f4171-cf76-48ba-aae2-d09175514f3a",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "The Privacy Rule applies to both print and electronic medical records.",
+							"questionId": "e8c4caca-943a-4071-a25b-7e61a01a862b",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": true,
+								"answerId": "990c9641-7963-4f98-989a-0ab3f71d90a9",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": false,
+								"answerId": "4ec4e803-e66b-419e-8acf-90489f8e14ba",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "4e9f4171-cf76-48ba-aae2-d09175514f3a"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "37092534-9dd1-4364-b543-a9167ff2c31f",
+						"content": "True",
+						"correct": true
+					},
+					{
+						"id": "325a1cbb-8fe2-47d5-a5bf-29819cefc860",
+						"content": "False",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "**HIPAA** discusses **electronic** information, but it's broad directives about privacy and security apply to **print** records, too.  For example, if printed medical files were **left open**, and any person could **read** the contents, the privacy of the patient would be **compromised.**",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "The Privacy Rule applies to both print and electronic medical records.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "bcf41f45-4f84-48d2-b21e-4c7d2b5b1fdf",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "bcf41f45-4f84-48d2-b21e-4c7d2b5b1fdf"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "## permitted uses and disclosures of health records",
+						"title": "## <center>**Defines**</center>"
+					},
+					{
+						"content": "## safeguards that covered entities must establish to protect the privacy of health information",
+						"title": "## <center>**Sets**</center>"
+					},
+					{
+						"content": "## civil and criminal penalties for CE violations of patients' privacy rights",
+						"title": "## <center>**Specifies**</center>"
+					},
+					{
+						"content": "## limited disclosures without patient authorization, of limited data, for specific and limited public health reasons",
+						"title": "## <center>**Permits**</center>"
+					},
+					{
+						"content": "## that a CE release only minimum data for a specific reason",
+						"title": "## <center>**Requires**</center>"
+					},
+					{
+						"content": "## that patients be told about disclosures of PHI",
+						"title": "## <center>**Mandates**</center>"
+					}
+				],
+				"title": "For Covered Entities (CE), **The Privacy Rule...**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "578f4e90-593e-48c9-b508-b4047db39257",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "HIPAA establishes only criminal penalties for unauthorized disclosure of personal health information.",
+							"questionId": "f58bf612-869f-451e-8982-aae50bfce201",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": false,
+								"answerId": "91335c49-1490-4691-b8d7-a06208e9ec9e",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": true,
+								"answerId": "0758b776-5fa9-4fd9-a42b-d015ecd795e1",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "578f4e90-593e-48c9-b508-b4047db39257"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "7b71067d-d734-4fbf-877b-b285548c205d",
+						"content": "True",
+						"correct": false
+					},
+					{
+						"id": "0c48582e-1639-435e-b742-92a8de85556d",
+						"content": "False",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "**HIPAA** takes violations seriously, and permits both **criminal** and **civil** penalties.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "HIPAA establishes only criminal penalties for unauthorized disclosure of personal health information.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "95b74f11-1e78-44ee-9f94-9ec9b432bd7b",
+			"type": "reveal",
+			"subtype": "reveal",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Reveal",
+			"templateDescription": "Flip cards to reveal more details",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "95b74f11-1e78-44ee-9f94-9ec9b432bd7b"
+			},
+			"data": {
+				"content": [
+					{
+						"title": "**Empowers**",
+						"description": "Patients to make informed choices about how their health information may be used, including make requests to restrict release of specific PHI"
+					},
+					{
+						"title": "**Mandates**",
+						"description": "Patients be told about disclosures of PHI"
+					},
+					{
+						"title": "**Entitles**",
+						"description": "Patients to ask for and receive a copy of, and to request changes to, their own records"
+					},
+					{
+						"title": "**Requires**",
+						"description": "Patients to receive plain language notice of:\n<ul>\n<li>how their PHI will be used and disclosed\n<li>their rights under the Privacy Rule\n<li>the covered entity's privacy obligations"
+					}
+				],
+				"prompt": "Select each item to find out more",
+				"focus": true,
+				"doneText": "Next",
+				"title": "For patients, the Privacy Rule...",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "59c49ded-7de0-48f9-a103-7265e8983ebf",
+			"type": "multiple-choice-game",
+			"subtype": "subset-of-four",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "The Privacy Rule requires patients to receive plain language notice of:",
+							"questionId": "cb7edf1f-8618-4c6f-b7d2-29356e489868",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "All of the above",
+								"correct": true,
+								"answerId": "1194da9c-44f7-45ca-a058-03522f31757e",
+								"type": "text"
+							},
+							{
+								"content": "how their PHI will be used and disclosed",
+								"correct": false,
+								"answerId": "a88b29f0-c757-4c73-a0ad-f966d794610d",
+								"type": "text"
+							},
+							{
+								"content": "their rights under the Privacy Rule",
+								"correct": false,
+								"answerId": "ed31c8b3-6a78-4962-8fa4-c0e06bfca6e5",
+								"type": "text"
+							},
+							{
+								"content": "the covered entity's privacy obligations",
+								"correct": false,
+								"answerId": "750ad686-100f-422d-8182-6202e7abe4a0",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "59c49ded-7de0-48f9-a103-7265e8983ebf"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": true,
+				"doneText": "Ok, I'm done",
+				"answers": [
+					{
+						"id": "b76fb806-ee50-4b9d-b7a9-3c291eaec9af",
+						"content": "All of the above",
+						"correct": true
+					},
+					{
+						"id": "fe58cf71-c30c-48d5-8f00-76b314fd235e",
+						"content": "how their PHI will be used and disclosed",
+						"correct": false
+					},
+					{
+						"id": "1ab80fbb-21c2-44bd-97ca-672d8952ba00",
+						"content": "their rights under the Privacy Rule",
+						"correct": false
+					},
+					{
+						"id": "49e738a6-2e6d-484a-b4d5-756d7d9e4cce",
+						"content": "the covered entity's privacy obligations",
+						"correct": false
+					}
+				],
+				"answer": {
+					"takeaway": "All of the above are true.   HIPAA is zealous about empowering patients to protect their information and control its disclosure.  There are **few, very strictly defined , limited **rules (e.g., public health) for the type and disclosure of private information without patient authorization.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "The Privacy Rule requires patients to receive plain language notice of:",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "d93281c9-6f6c-4f33-8179-a72776953a10",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "d93281c9-6f6c-4f33-8179-a72776953a10"
+			},
+			"data": {
+				"content": "## HIPAA defines three categories of Covered Entities:<br>\n\n>* ## Health Plans\n* ## Healthcare Clearinghouses\n* ## Healthcare Providers",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "**Covered Entities**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "cf3d937b-fea2-456e-8409-5499225873cb",
+			"type": "image-slider",
+			"subtype": "single",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Vertical series",
+			"templateDescription": "Swipe through a group of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "cf3d937b-fea2-456e-8409-5499225873cb"
+			},
+			"data": {
+				"prompt": "Click to see more",
+				"items": [
+					{
+						"content": "fit_content_assets/ftb6uhxz7mqdwsjjril6.jpg",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "### **Health Plans**<br>\nAn entity, including private insurers and payers, and national and state government payers (Medicare, Medicaid), that provides or pays for medical care.",
+						"imagePosition": "Middle",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/udpb59redltd0exuyxb9.png",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "### **Healthcare Clearinghouses**<br>\nAny entity, including healthcare data exchanges, that processes healthcare data or transactions received from another entity.",
+						"imagePosition": "Top",
+						"captionStyle": "Default"
+					},
+					{
+						"content": "fit_content_assets/kustbxshjjkeldneqize.jpg",
+						"contentType": "image",
+						"position": "Bottom",
+						"color": "",
+						"caption": "### **Healthcare Providers**<br>\nAny person or organization - including physicians, hospitals and clinics - that delivers healthcare services.",
+						"imagePosition": "Middle",
+						"captionStyle": "Default"
+					}
+				],
+				"arrows": true,
+				"doneText": "Next",
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "1d5fb595-7239-4f99-a58f-e595a0690ae8",
+			"type": "multiple-choice-game",
+			"subtype": "one-of-three",
+			"name": 12,
+			"displayIndex": 12,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Select all that apply",
+							"content": "Which of the following are considered **Covered Entities**?",
+							"questionId": "612180f3-f590-4faf-aa3a-80892080affe",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Health Plans",
+								"correct": false,
+								"answerId": "a097c6a6-b085-4062-9559-43c555f70694",
+								"type": "text"
+							},
+							{
+								"content": "Healthcare Clearinghouses",
+								"correct": false,
+								"answerId": "bb77b6b1-6989-4331-8b3c-2e44f49d9c47",
+								"type": "text"
+							},
+							{
+								"content": "Healthcare Providers",
+								"correct": false,
+								"answerId": "7dc5e59e-8b7f-4e59-8482-112ced79a532",
+								"type": "text"
+							},
+							{
+								"content": "<p>Gyms</p>",
+								"correct": false,
+								"answerId": "fed75479-e7fb-41d7-a3be-2214a4d3f97c",
+								"type": "text"
+							},
+							{
+								"content": "All of the Above",
+								"correct": true,
+								"answerId": "4ec3171e-1504-4447-8a33-8dce7c6c33c8",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "1d5fb595-7239-4f99-a58f-e595a0690ae8"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": true,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "858a487f-f1a6-41fe-835d-0fed859342f0",
+						"content": "Health Plans",
+						"correct": false
+					},
+					{
+						"id": "931e4a02-a970-4e53-891e-cda719fba578",
+						"content": "Healthcare Clearinghouses",
+						"correct": false
+					},
+					{
+						"id": "0515bf0c-c4ad-4b79-9e15-9834d16ac6b9",
+						"content": "Healthcare Providers",
+						"correct": false
+					},
+					{
+						"id": "33469fe2-0d44-43b6-bc5e-9ff33908b260",
+						"content": "<p>Gyms</p>",
+						"correct": false
+					},
+					{
+						"id": "4d054867-d64d-427e-b4e8-9e00804d7289",
+						"content": "All of the Above",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "Covered entities are narrowly defined.  \n\nBut, let's say a personal gym included rehabilitation services provided by a personal trainer who was also a physical therapist who received instructions from an orthopedic surgeon. \n\nThe gym needs to consider it's potential responsibilities under HIPAA.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select all correct answers",
+				"title": "Which of the following are considered **Covered Entities**?",
+				"titleType": "text",
+				"subtitle": "Select all that apply",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "f817324b-25a5-4cc4-9a1d-6bf95f05439d",
+			"type": "image-collection",
+			"subtype": "image-collection",
+			"name": 13,
+			"displayIndex": 13,
+			"templateName": "Image collection",
+			"templateDescription": "Select an image to see more detail",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "f817324b-25a5-4cc4-9a1d-6bf95f05439d"
+			},
+			"data": {
+				"prompt": "Select each image for more details",
+				"background": "",
+				"lightbox": true,
+				"images": [
+					{
+						"content": "## Create, adopt, implement and ensure compliance with internal privacy policies and procedures, including training employees on how to carry-out privacy policies and procedures.",
+						"image": "fit_content_assets/lmxlugexokcdkvizoh2f.jpg",
+						"narration": null
+					},
+					{
+						"content": "## Appoint a Privacy Officer who is responsible to enforce privacy compliance, ensure the rights of individuals under the Privacy Rule and to receive privacy complaints.",
+						"image": "fit_content_assets/qgbvk7q4jtguhkuvwyty.jpg",
+						"narration": null
+					},
+					{
+						"content": "## Require privacy in contracts with business associates.",
+						"image": "fit_content_assets/op77mvxte2oeftdcqsr5.jpg",
+						"narration": null
+					},
+					{
+						"content": "## Implement specific Administrative, Technical, and Physical Safeguards (see Security Rule lesson) to protect PHI.",
+						"image": "fit_content_assets/qn9ljvdukvritosw2vun.jpg",
+						"narration": ""
+					}
+				],
+				"doneText": "Next",
+				"title": "Each Covered Entity must...",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "7acaca2a-4a96-47de-98fc-e3f96e424d09",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 14,
+			"displayIndex": 14,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Appoint a Privacy Officer who is responsible to enforce privacy compliance , ensure the rights of individuals under the Privacy Rule and to receive privacy complaints.",
+							"content": "Privacy",
+							"questionId": "dc1476b1-cca5-441a-bdd6-4cffa1ee3298",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Security",
+								"correct": false,
+								"answerId": "64a983b4-0a14-4c17-a570-ab5113b0c800",
+								"type": "text"
+							},
+							{
+								"content": "rights",
+								"correct": false,
+								"answerId": "932a4e74-f6c9-432c-af53-5f1146c54a65",
+								"type": "text"
+							},
+							{
+								"content": "well-being",
+								"correct": false,
+								"answerId": "242a99b9-1f80-40bd-bae6-9a1ff1a99ecf",
+								"type": "text"
+							},
+							{
+								"content": "compliance",
+								"correct": false,
+								"answerId": "cd01177c-5ac6-42a0-b2b1-122e8640896c",
+								"type": "text"
+							},
+							{
+								"content": "legislation",
+								"correct": false,
+								"answerId": "87ebfd96-2e56-4ab9-a2eb-e66811546f19",
+								"type": "text"
+							},
+							{
+								"content": "Privacy",
+								"correct": true,
+								"answerId": "9f4183c3-9799-4569-a6a4-4d9178abe383",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Appoint a Privacy Officer who is responsible to enforce privacy compliance , ensure the rights of individuals under the Privacy Rule and to receive privacy complaints.",
+							"content": "rights",
+							"questionId": "6109656f-96e4-4f42-b5ca-97a265c9c0af",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Privacy",
+								"correct": false,
+								"answerId": "d2945d1c-bbe2-4072-a2b2-e0ab33a67d42",
+								"type": "text"
+							},
+							{
+								"content": "Security",
+								"correct": false,
+								"answerId": "73334511-01f3-4c21-baa7-c6bd016d19bb",
+								"type": "text"
+							},
+							{
+								"content": "well-being",
+								"correct": false,
+								"answerId": "17a118fe-a303-4f87-91a7-14e36b026d07",
+								"type": "text"
+							},
+							{
+								"content": "compliance",
+								"correct": false,
+								"answerId": "6c1f54b9-1069-4180-ab37-a427d6998243",
+								"type": "text"
+							},
+							{
+								"content": "legislation",
+								"correct": false,
+								"answerId": "a1a7cdc9-ab9d-4f9f-a50f-4d8ce05b4828",
+								"type": "text"
+							},
+							{
+								"content": "rights",
+								"correct": true,
+								"answerId": "4462175b-cb74-476c-a3d9-75d42d83b7b4",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Appoint a Privacy Officer who is responsible to enforce privacy compliance , ensure the rights of individuals under the Privacy Rule and to receive privacy complaints.",
+							"content": "compliance",
+							"questionId": "238b9f4c-aa09-4d4e-9e29-3b3bb2db6c77",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Privacy",
+								"correct": false,
+								"answerId": "9dda0454-ea9d-466a-bc15-38872fe083a3",
+								"type": "text"
+							},
+							{
+								"content": "Security",
+								"correct": false,
+								"answerId": "f0b56f5c-12a9-44a5-ad71-3f701e7d259c",
+								"type": "text"
+							},
+							{
+								"content": "rights",
+								"correct": false,
+								"answerId": "b95930bd-a11a-467a-81d2-885d67f6f05e",
+								"type": "text"
+							},
+							{
+								"content": "well-being",
+								"correct": false,
+								"answerId": "f4a51c55-a6a1-4dd7-b835-64fd0d6a8a28",
+								"type": "text"
+							},
+							{
+								"content": "legislation",
+								"correct": false,
+								"answerId": "9c9cee0a-a0f5-47a3-859d-47b2f61695bb",
+								"type": "text"
+							},
+							{
+								"content": "compliance",
+								"correct": true,
+								"answerId": "72fcd38c-a7c1-4a6d-86e2-40a206c1326d",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "7acaca2a-4a96-47de-98fc-e3f96e424d09"
+			},
+			"data": {
+				"words": [
+					"Privacy",
+					"Security",
+					"rights",
+					"well-being",
+					"compliance",
+					"legislation"
+				],
+				"doneText": "Ok, I'm done",
+				"answer": {
+					"takeaway": "Each covered entity, regardless of size, is required to have a Privacy Officer to oversee the protection of patient information.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "Appoint a Privacy Officer who is responsible to enforce privacy compliance , ensure the rights of individuals under the Privacy Rule and to receive privacy complaints.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "14f0411f-6107-47e7-b8c0-544cf5e3e77d",
+			"type": "exit",
+			"subtype": "default",
+			"name": 15,
+			"displayIndex": 15,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "14f0411f-6107-47e7-b8c0-544cf5e3e77d"
+			},
+			"data": {
+				"content": "<p>Nice work. You've completed this lesson.</p><p></p><p>Please close this tab and return to the Content tab to complete the course</p>",
+				"buttonText": "Exit Lesson",
+				"title": "That's it!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "The Privacy Rule",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090b0"
+}
