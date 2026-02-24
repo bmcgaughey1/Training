@@ -1,0 +1,749 @@
+{
+	"config": {
+		"background": "",
+		"colors": {
+			"background": "#46b4e9",
+			"experimental": false,
+			"text": "#fff",
+			"theme": ""
+		},
+		"enableCustomCSS": true,
+		"customCSS": "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n\nEdAPP CSS Sheet\n\n@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');\n\nbody {font-family: 'Roboto', sans-serif;}\n\n#slides {color:#fff}\n\n.btn.btn-muted {background-color: #fff;\ncolor: #000;}\n\n.slide-image-waypoints .prev-wp, .slide-image-waypoints .next-wp {background-color: #fff;\n  color: #000;}\n\n#indicator {background-color: #000;\ncolor:#fff}\n\n.btn.btn-solid {background-color: #fff;\ncolor: #000;}\n\n/*Box on upper right corner*/\n#lesson-header-nav {background-color: #fff;\ncolor: #000;}\n\n.slide-image-slider .style-default .caption-content {background-color: rgba(32, 45, 101, .9); color: #fff;}\n\n.slide-image-slider .style-dark .caption-content {background-color: rgba(255, 230, 26, .9);\ncolor: #000;}\n\n/*Comparison interaction*/\n.slider .slider-knob::before {background-color: #fff;}\n.slider .slider-knob::after {background-color: #fff;}\n\n.slide-scratch-to-reveal.state-touched .btn-replay {\n  background-color:#fff;}\n\n.slide-game-true-or-false .game-statement {background-color: #000;\ncolor: #ffe61a;}\n\n.slide-construct .letter{background-color:#ffe61a; color: #000;}\n\n/*Accordion*/\n.slide-expandable-list .block-dk {\n    background: ;\n}\n\n/*Accordion*/\n .slide-expandable-list .item.active .item-button {\n   background-color: #fff;\n}\n\n   /* Backside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title, .slide-reveal .btn-reveal-desc {\nbackground: rgb(255,255,255);\ncolor: black;\n}\n\n/* Frontside of reveal cards (Flip Boxes)*/\n.slide-reveal .btn-reveal-title {\nbackground: #fff;\ncolor: #000;\n}\n\n/*Import font from googlepi*/\n@import url('https://fonts.googleapis.com/css?family=Indie Flower');\n\n/*Alternatives to Indie Flower*/\n@import url('https://fonts.googleapis.com/css?family=Gloria Hallelujah');\n@import url('https://fonts.googleapis.com/css?family=Architects Daughter');\n\n/*Title*/\np.t {\n  font:  35px Indie Flower; \n  }",
+		"direction": "ltr",
+		"disableInteractionSummary": true,
+		"disableLessonScore": false,
+		"hasAnswerFeedback": true,
+		"hasScormExitButton": false,
+		"preventLogoutOnExit": false,
+		"indicator": true,
+		"logo": "fit_content_assets/sm3wgwptml3cfea7tc7z.png",
+		"minimumScore": 0,
+		"pageNumbers": true,
+		"pagination": true,
+		"soundDisabled": false,
+		"language": "en"
+	},
+	"slides": [
+		{
+			"id": "0f7b4ccb-5502-4769-a605-01e644819756",
+			"type": "title",
+			"subtype": "default",
+			"name": 1,
+			"displayIndex": 1,
+			"templateName": "Title",
+			"templateDescription": "Introduce your lesson",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "0f7b4ccb-5502-4769-a605-01e644819756"
+			},
+			"data": {
+				"buttonText": "Begin",
+				"exitButton": true,
+				"title": "**Best Practices**",
+				"titleType": "html",
+				"subtitle": "",
+				"subtitleType": "html",
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "1959ac17-6392-414d-8172-4af97d7dacf6",
+			"type": "image-gallery",
+			"subtype": "image-gallery",
+			"name": 2,
+			"displayIndex": 2,
+			"templateName": "Horizontal series",
+			"templateDescription": "Swipe through a gallery of images",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "1959ac17-6392-414d-8172-4af97d7dacf6"
+			},
+			"data": {
+				"prompt": "Swipe to continue",
+				"background": "",
+				"lightbox": false,
+				"images": [
+					{
+						"image": "",
+						"caption": "# It's clear that rules need to be followed and safeguards implemented. "
+					},
+					{
+						"image": "",
+						"caption": "# Safeguards should  include creating a culture of the \"HIPAA mindset,\" an unrelenting focus on securing and respecting the privacy of each patient."
+					},
+					{
+						"image": "",
+						"caption": "# What follows is a list of practices to help you begin to develop a HIPAA mindset."
+					},
+					{
+						"image": "",
+						"caption": "# But, every organization is different, and you need  good risk and security analyses to identify your own threats and vulnerability."
+					},
+					{
+						"image": "",
+						"caption": "# Remember, they're **your** risks and **your** responsibilities."
+					}
+				],
+				"doneText": "Next",
+				"title": null,
+				"titleType": null,
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "958bd05b-770f-4521-a0be-4ef03fac2fda",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 3,
+			"displayIndex": 3,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "958bd05b-770f-4521-a0be-4ef03fac2fda"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "Conduct a **comprehensive risk analysis** - if you don't know how to do it, hire somebody who does. <br><br>Every **safeguard** you implement depends on the specific findings of the risk analysis. <br><br>\n\nIf the analysis is incomplete or inaccurate, safeguards will be inadequate, and you will be at **increased risk**!",
+						"title": "Conduct"
+					},
+					{
+						"content": "Implement **layered network security** and **safeguards**. \n\nIf you don’t know how to do it, hire someone who does - don’t just ignore it.",
+						"title": "Implement"
+					},
+					{
+						"content": "Remember, **ALL** of the safeguards are important.",
+						"title": "Remember"
+					},
+					{
+						"content": "Encrypt your data - **all of it.**",
+						"title": "Encrypt"
+					},
+					{
+						"content": "Require **strong** passwords for anything that has PHI.",
+						"title": "Require"
+					}
+				],
+				"title": "**Technical Practices**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "14d82808-9db7-45b9-9fdd-d99be978bbfc",
+			"type": "scrollable",
+			"subtype": "scrolling-content",
+			"name": 4,
+			"displayIndex": 4,
+			"templateName": "Scrolling text",
+			"templateDescription": "Display a long amount of content",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "14d82808-9db7-45b9-9fdd-d99be978bbfc"
+			},
+			"data": {
+				"content": "1. ## Perform comprehensive risk and security analyses\n2. ## Identify threats and vulnerabilities\n3. ## Select and develop safeguards\n4. ## Create policies, procedures, and practices\n5. ## Train the staff\n6. ## Implement all safeguards\n7. ## Manage, monitor, and modify",
+				"prompt": "Scroll to see more",
+				"doneText": "Next",
+				"title": "**Path to HIPAA Compliance**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "b8c61f24-e4bf-4627-9344-77862c2bde01",
+			"type": "reorder",
+			"subtype": "cities",
+			"name": 5,
+			"displayIndex": 5,
+			"templateName": "Reorder",
+			"templateDescription": "Put the items in the correct order",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"content": "Put these steps in the correct order",
+							"questionId": "530d13d1-bada-4a21-9a5b-70ec890788db",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "Conduct risk and security analyses|Identify appropriate and reasonable safeguards|Develop policies, procedures, and practices|Train your workforce|Implement the safeguards|Monitor and modify security practices as needed",
+								"correct": true,
+								"answerId": "e9083372-4e81-472a-a966-b3807d50c8d4",
+								"type": "sequence"
+							},
+							{
+								"correct": false,
+								"answerId": "320d03ac-7882-42fe-9b7d-bd0e13c23c4e",
+								"type": "incorrect-answer"
+							}
+						]
+					}
+				],
+				"slideId": "b8c61f24-e4bf-4627-9344-77862c2bde01"
+			},
+			"data": {
+				"doneText": "Next",
+				"list": [
+					"Conduct risk and security analyses",
+					"Identify appropriate and reasonable safeguards",
+					"Develop policies, procedures, and practices",
+					"Train your workforce",
+					"Implement the safeguards",
+					"Monitor and modify security practices as needed"
+				],
+				"answer": {
+					"takeaway": "You must understand the risks, evaluate safeguards, implement solutions, and monitor activity.\n\nA rigorous training program, including regular updates, is an **integral** part of any solution - after all,  it's the people who make security happen.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Put the items in the correct order",
+				"title": "Put these steps in the correct order",
+				"titleType": "text",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "bbd3dc1f-6d88-4a9d-bf08-b625e82f86ab",
+			"type": "expandable-list",
+			"subtype": "three",
+			"name": 6,
+			"displayIndex": 6,
+			"templateName": "Expandable list",
+			"templateDescription": "Display a list of bullet points",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "bbd3dc1f-6d88-4a9d-bf08-b625e82f86ab"
+			},
+			"data": {
+				"content": null,
+				"prompt": "Select an item to see more",
+				"focus": true,
+				"doneText": "Next",
+				"list": [
+					{
+						"content": "Appoint Privacy and Security Officers, even if you are a small CE.  <ol>\n<li>The law requires it.  \n<li>You need a single point of authority.  \n<li>You need an enforcer.",
+						"title": "Appoint"
+					},
+					{
+						"content": "Train your staff well -  but it shouldn’t be seen as a compliance checkbox.  It’s the HIPAA version of “a chain is as strong as the weakest link.”<br><br>\n\nAnd, don’t make it just an annual thing - reinforcing HIPAA best practices is key to robust privacy and security practices.<br><br> Small, frequent delivery of content builds employee confidence, encourages compliance, and decreases employee downtime for training.",
+						"title": "Train"
+					},
+					{
+						"content": "Implement internal controls, with appropriate checks and balances - no one person should be able to do everything - at least without a method of accountability.",
+						"title": "Implement"
+					},
+					{
+						"content": "Test on HIPAA - ask staff members \"what ifs” with scenarios appropriate for their roles.",
+						"title": "Test"
+					},
+					{
+						"content": "Encourage everyone to become a HIPAA best practices advocate and express their concerns and solutions.<br><br>If everyone is a potential problem, then everyone’s a source of ideas, too.",
+						"title": "Encourage"
+					}
+				],
+				"title": "**Administrative Practices**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "9a9d24ca-d3f5-423b-b8c6-e69d6211f079",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 7,
+			"displayIndex": 7,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "Only practices with more than 5,000 patients need Privacy and Security Officers.",
+							"questionId": "c814a021-722b-4044-8b1e-b44facdc2793",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": false,
+								"answerId": "6af494cf-1ddd-4285-8b45-ba465d5bc983",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": true,
+								"answerId": "f89533cf-e100-41f2-9289-e61a109e32d4",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "9a9d24ca-d3f5-423b-b8c6-e69d6211f079"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "288390eb-75aa-44e7-8386-fc5b88cfff17",
+						"content": "True",
+						"correct": false
+					},
+					{
+						"id": "3eea071d-fb01-49ef-b776-eb67a9fa2de6",
+						"content": "False",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "Under HIPAA , a breach is a breach is a breach - they all need to be reported.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "Only practices with more than 5,000 patients need Privacy and Security Officers.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "b44e0d49-b74a-4262-99e8-85dd3ccdff7a",
+			"type": "multiple-choice-game",
+			"subtype": "true-or-false",
+			"name": 8,
+			"displayIndex": 8,
+			"templateName": "Multiple Choice",
+			"templateDescription": "Select the correct answer(s)",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "",
+							"content": "In a small practice, it is best if one person can fulfill all of the roles required to implement, maintain, and monitor security safeguards.",
+							"questionId": "b9526313-9530-48d2-83a2-7a7f62e6281f",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "True",
+								"correct": false,
+								"answerId": "e6c8fc50-3c02-4bc9-a44b-49fb5e937e69",
+								"type": "text"
+							},
+							{
+								"content": "False",
+								"correct": true,
+								"answerId": "f8f8b5d4-2f71-43c3-93a5-09d6fbc3ef54",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "b44e0d49-b74a-4262-99e8-85dd3ccdff7a"
+			},
+			"data": {
+				"additionalContent": null,
+				"additionalContentType": "text",
+				"selectable": 1,
+				"randomize": false,
+				"doneText": "Next",
+				"answers": [
+					{
+						"id": "f8bc0b1a-35f3-4f1c-86af-d9c7551d1737",
+						"content": "True",
+						"correct": false
+					},
+					{
+						"id": "c73723ed-d056-497e-ba55-34f91e656d37",
+						"content": "False",
+						"correct": true
+					}
+				],
+				"answer": {
+					"takeaway": "Even in a small entity, internal controls - a system of checks and balances - can prevent one person from abusing power.\n\nThis isn't a new concept; 2100 years ago, a Roman author asked \"_Quis custodiet ipsos custodes_?  - who will watch the watchmen?",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Select the correct answer",
+				"title": "In a small practice, it is best if one person can fulfill all of the roles required to implement, maintain, and monitor security safeguards.",
+				"titleType": "text",
+				"subtitle": "",
+				"subtitleType": "text",
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "0dd7832d-fb11-42d3-b535-06de07999adb",
+			"type": "text-sequence",
+			"subtype": "text-sequence",
+			"name": 9,
+			"displayIndex": 9,
+			"templateName": "Sequence",
+			"templateDescription": "Display a sequence of text",
+			"permanent": false,
+			"metadata": {
+				"questions": [],
+				"slideId": "0dd7832d-fb11-42d3-b535-06de07999adb"
+			},
+			"data": {
+				"prompt": "Read more",
+				"label": "Practice",
+				"canGoBack": true,
+				"doneText": "Next",
+				"content": [
+					"Be neat - do not let records lay about. Have policies and procedures.",
+					"Meet frequently, even informally, to discuss privacy and security.",
+					"Reward people who demonstrate good practices.",
+					"Build a robust “social firewall” - make your people suspicious of any request for PHI.",
+					"Control personal smartphone and device use - well, we can hope.",
+					"Banish gossip - make it the office ethic.",
+					"Create a collaborative atmosphere, a community of practice, in which all employees are encouraged to participate in building robust security practices."
+				],
+				"title": "**Office Practices**",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": {
+					"progress_on_completion": false,
+					"can_not_be_skipped": false,
+					"audio_file": null
+				}
+			}
+		},
+		{
+			"id": "d66a368f-7ea1-4cdf-a5b5-0559b33d1ecd",
+			"type": "missing-word",
+			"subtype": "missing-word",
+			"name": 10,
+			"displayIndex": 10,
+			"templateName": "Missing words",
+			"templateDescription": "",
+			"permanent": false,
+			"metadata": {
+				"questions": [
+					{
+						"question": {
+							"category": "Create a collaborative atmosphere, a community of practice, in which all employees are encouraged to participate in building robust security practices.",
+							"content": "collaborative",
+							"questionId": "92ca0baf-9a99-4e2b-afdc-a22ba74e9c23",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "controlling",
+								"correct": false,
+								"answerId": "ab240149-291d-4aab-b98d-291708456d27",
+								"type": "text"
+							},
+							{
+								"content": "encouraged",
+								"correct": false,
+								"answerId": "5bb46329-51fb-411b-9fe2-535113a1c7aa",
+								"type": "text"
+							},
+							{
+								"content": "compelled",
+								"correct": false,
+								"answerId": "09b90f9a-9200-4f86-994c-2ff8400da3a1",
+								"type": "text"
+							},
+							{
+								"content": "robust",
+								"correct": false,
+								"answerId": "b8d06c2e-f322-40f4-b22b-5d42f3df1f8f",
+								"type": "text"
+							},
+							{
+								"content": "collaborative",
+								"correct": true,
+								"answerId": "b591ca42-0263-4f43-8907-5cd02d85771c",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Create a collaborative atmosphere, a community of practice, in which all employees are encouraged to participate in building robust security practices.",
+							"content": "encouraged",
+							"questionId": "147ee2db-8bfb-4737-ac74-8262f42b9fa5",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "collaborative",
+								"correct": false,
+								"answerId": "97f7b40a-4fd1-4349-9516-26d967db06d5",
+								"type": "text"
+							},
+							{
+								"content": "controlling",
+								"correct": false,
+								"answerId": "0057670b-0e92-4545-a77b-ad10d1858aa6",
+								"type": "text"
+							},
+							{
+								"content": "compelled",
+								"correct": false,
+								"answerId": "46ae4a81-9d30-441e-8e82-bf249e6e8f4b",
+								"type": "text"
+							},
+							{
+								"content": "robust",
+								"correct": false,
+								"answerId": "5c06532f-7d53-4016-8ed5-1f0831df451d",
+								"type": "text"
+							},
+							{
+								"content": "encouraged",
+								"correct": true,
+								"answerId": "01222474-b8a0-4d8f-b23e-c1757033a83d",
+								"type": "text"
+							}
+						]
+					},
+					{
+						"question": {
+							"category": "Create a collaborative atmosphere, a community of practice, in which all employees are encouraged to participate in building robust security practices.",
+							"content": "robust",
+							"questionId": "b85f475f-2f87-419d-9a9e-f46bc5417ceb",
+							"type": "text"
+						},
+						"answers": [
+							{
+								"content": "collaborative",
+								"correct": false,
+								"answerId": "e8464a23-5077-45e8-b952-c99aec9ac875",
+								"type": "text"
+							},
+							{
+								"content": "controlling",
+								"correct": false,
+								"answerId": "e69b64c4-ea5a-4183-a889-c1518de9d0a2",
+								"type": "text"
+							},
+							{
+								"content": "encouraged",
+								"correct": false,
+								"answerId": "863ad31a-1b66-47e8-879e-afbc9d753d82",
+								"type": "text"
+							},
+							{
+								"content": "compelled",
+								"correct": false,
+								"answerId": "80f99cc8-11b3-45e4-a0b6-94224d9f405b",
+								"type": "text"
+							},
+							{
+								"content": "robust",
+								"correct": true,
+								"answerId": "166c2b04-f577-4c99-bacc-4be0e2e5e92e",
+								"type": "text"
+							}
+						]
+					}
+				],
+				"slideId": "d66a368f-7ea1-4cdf-a5b5-0559b33d1ecd"
+			},
+			"data": {
+				"words": [
+					"collaborative",
+					"controlling",
+					"encouraged",
+					"compelled",
+					"robust"
+				],
+				"doneText": "Next",
+				"answer": {
+					"takeaway": "Culture goes a long way to developing and practicing strong security measures. It's important that individual knowledge, experience and ideas be shared with the larger community.",
+					"incorrect": "Not quite...",
+					"correct": "That's correct!",
+					"text": "",
+					"value": null
+				},
+				"game": {
+					"timer": {
+						"limit": -1,
+						"isDisabled": false,
+						"out-of-time-prompt": null
+					},
+					"stars": null
+				},
+				"prompt": "Drag in the missing words",
+				"title": "Create a collaborative atmosphere, a community of practice, in which all employees are encouraged to participate in building robust security practices.",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": {
+					"nb_stars": null,
+					"weighting": 1
+				},
+				"socialLearning": {
+					"enabled": false,
+					"maxResponseLength": 0
+				},
+				"narration": null
+			}
+		},
+		{
+			"id": "34b2477c-28e9-46a5-9554-ede0a397bd55",
+			"type": "exit",
+			"subtype": "default",
+			"name": 11,
+			"displayIndex": 11,
+			"templateName": "Exit Lesson",
+			"templateDescription": "",
+			"permanent": true,
+			"metadata": {
+				"questions": [],
+				"slideId": "34b2477c-28e9-46a5-9554-ede0a397bd55"
+			},
+			"data": {
+				"content": "<p>Nice work. You've completed this lesson.</p><p></p><p>Please close this tab and return to the Content tab to complete the course</p>",
+				"buttonText": "Exit Lesson",
+				"title": "That's it!",
+				"titleType": "html",
+				"subtitle": null,
+				"subtitleType": null,
+				"challenge_configuration": null,
+				"socialLearning": null,
+				"narration": null
+			}
+		}
+	],
+	"title": "Best Practices",
+	"index": 0,
+	"scorm": true,
+	"id": "699cbe2a2557b311169090b4"
+}
